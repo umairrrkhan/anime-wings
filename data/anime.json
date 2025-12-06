@@ -2,71 +2,2843 @@
     {
         "id": 1,
         "title": "Attack on Titan",
-        "genres": ["action", "drama"],
+        "genres": ["action", "drama", "fantasy", "mystery"],
         "year": 2013,
-        "description": "Humanity fights for survival against giant humanoid Titans."
+        "imdb": "https://www.imdb.com/title/tt2560140/"
     },
     {
         "id": 2,
-        "title": "Your Name",
-        "genres": ["romance", "fantasy", "drama"],
-        "year": 2016,
-        "description": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies."
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "genres": ["action", "adventure", "drama", "fantasy"],
+        "year": 2009,
+        "imdb": "https://www.imdb.com/title/tt1355642/"
     },
     {
         "id": 3,
-        "title": "Death Note",
-        "genres": ["action", "thriller", "psychological"],
-        "year": 2006,
-        "description": "A high school student discovers a supernatural notebook that allows him to kill anyone by writing their name."
+        "title": "Steins;Gate",
+        "genres": ["drama", "scifi", "thriller"],
+        "year": 2011,
+        "imdb": "https://www.imdb.com/title/tt1910272/"
     },
     {
         "id": 4,
-        "title": "Toradora!",
-        "genres": ["romance", "comedy", "drama"],
-        "year": 2008,
-        "description": "Two high school students with contrasting personalities help each other pursue their respective crushes."
+        "title": "Cowboy Bebop",
+        "genres": ["action", "adventure", "scifi", "space"],
+        "year": 1998,
+        "imdb": "https://www.imdb.com/title/tt0213338/"
     },
     {
         "id": 5,
-        "title": "One Punch Man",
-        "genres": ["comedy", "action", "parody"],
-        "year": 2015,
-        "description": "A hero who can defeat any enemy with a single punch grows bored with his lack of challenge."
+        "title": "Neon Genesis Evangelion",
+        "genres": ["drama", "mecha", "psychological"],
+        "year": 1995,
+        "imdb": "https://www.imdb.com/title/tt0112159/"
     },
     {
         "id": 6,
-        "title": "Nichijou",
-        "genres": ["comedy", "slice of life"],
-        "year": 2011,
-        "description": "The extraordinary lives of ordinary high school students and their strange adventures."
+        "title": "Spy x Family",
+        "genres": ["action", "comedy", "sliceoflife"],
+        "year": 2022,
+        "imdb": "https://www.imdb.com/title/tt13706018/"
     },
     {
         "id": 7,
-        "title": "Spirited Away",
-        "genres": ["fantasy", "adventure", "drama"],
-        "year": 2001,
-        "description": "A young girl becomes trapped in a mysterious world of spirits and gods."
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2019,
+        "imdb": "https://www.imdb.com/title/tt9335498/"
     },
     {
         "id": 8,
-        "title": "Made in Abyss",
-        "genres": ["fantasy", "adventure", "mystery"],
-        "year": 2017,
-        "description": "A young girl and her robot companion explore a dangerous, mysterious chasm filled with ancient relics."
+        "title": "Death Note",
+        "genres": ["mystery", "psychological", "thriller"],
+        "year": 2006,
+        "imdb": "https://www.imdb.com/title/tt0877057/"
     },
     {
         "id": 9,
-        "title": "My Hero Academia",
-        "genres": ["action", "superhero", "school"],
-        "year": 2016,
-        "description": "A boy born without superpowers in a world where they are the norm strives to become a hero."
+        "title": "One Punch Man",
+        "genres": ["action", "comedy", "scifi", "superhero"],
+        "year": 2015,
+        "imdb": "https://www.imdb.com/title/tt4508902/"
     },
     {
         "id": 10,
-        "title": "Kaguya-sama: Love is War",
-        "genres": ["romance", "comedy", "psychological"],
+        "title": "Vinland Saga",
+        "genres": ["action", "adventure", "drama", "historical"],
         "year": 2019,
-        "description": "Two brilliant high school students engage in elaborate schemes to make the other confess their love first."
+        "imdb": "https://www.imdb.com/title/tt10233448/"
+    },
+    {
+        "id": 11,
+        "title": "Monster",
+        "genres": ["drama", "mystery", "psychological", "thriller"],
+        "year": 2004,
+        "imdb": "https://www.imdb.com/title/tt0434706/"
+    },
+    {
+        "id": 12,
+        "title": "Hunter x Hunter (2011)",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2011,
+        "imdb": "https://www.imdb.com/title/tt2098220/"
+    },
+    {
+        "id": 13,
+        "title": "Code Geass: Lelouch of the Rebellion",
+        "genres": ["action", "drama", "mecha", "military"],
+        "year": 2006,
+        "imdb": "https://www.imdb.com/title/tt0994314/"
+    },
+    {
+        "id": 14,
+        "title": "Berserk (1997)",
+        "genres": ["action", "adventure", "fantasy", "horror"],
+        "year": 1997,
+        "imdb": "https://www.imdb.com/title/tt0264484/"
+    },
+    {
+        "id": 15,
+        "title": "Gintama",
+        "genres": ["action", "comedy", "scifi", "parody"],
+        "year": 2006,
+        "imdb": "https://www.imdb.com/title/tt0988818/"
+    },
+    {
+        "id": 16,
+        "title": "Jujutsu Kaisen",
+        "genres": ["action", "fantasy", "horror", "supernatural"],
+        "year": 2020,
+        "imdb": "https://www.imdb.com/title/tt12343534/"
+    },
+    {
+        "id": 17,
+        "title": "Mob Psycho 100",
+        "genres": ["action", "comedy", "sliceoflife", "supernatural"],
+        "year": 2016,
+        "imdb": "https://www.imdb.com/title/tt5897304/"
+    },
+    {
+        "id": 18,
+        "title": "Clannad: After Story",
+        "genres": ["drama", "romance", "sliceoflife", "supernatural"],
+        "year": 2008,
+        "imdb": "https://www.imdb.com/title/tt1298820/"
+    },
+    {
+        "id": 19,
+        "title": "Haikyuu!!",
+        "genres": ["comedy", "drama", "sports"],
+        "year": 2014,
+        "imdb": "https://www.imdb.com/title/tt3398540/"
+    },
+    {
+        "id": 20,
+        "title": "Mushishi",
+        "genres": ["adventure", "fantasy", "mystery", "supernatural"],
+        "year": 2005,
+        "imdb": "https://www.imdb.com/title/tt1355641/"
+    },
+    {
+        "id": 21,
+        "title": "Fate/Zero",
+        "genres": ["action", "fantasy", "supernatural"],
+        "year": 2011,
+        "imdb": "https://www.imdb.com/title/tt2051178/"
+    },
+    {
+        "id": 22,
+        "title": "Made in Abyss",
+        "genres": ["adventure", "drama", "fantasy", "mystery"],
+        "year": 2017,
+        "imdb": "https://www.imdb.com/title/tt7222086/"
+    },
+    {
+        "id": 23,
+        "title": "Legend of the Galactic Heroes",
+        "genres": ["drama", "military", "scifi", "space"],
+        "year": 1988,
+        "imdb": "https://www.imdb.com/title/tt0096639/"
+    },
+    {
+        "id": 24,
+        "title": "Parasyte: The Maxim",
+        "genres": ["action", "drama", "horror", "scifi"],
+        "year": 2014,
+        "imdb": "https://www.imdb.com/title/tt3470600/"
+    },
+    {
+        "id": 25,
+        "title": "A Silent Voice",
+        "genres": ["drama", "romance", "sliceoflife"],
+        "year": 2016,
+        "imdb": "https://www.imdb.com/title/tt5323662/"
+    },
+    {
+        "id": 26,
+        "title": "Ghost in the Shell: Stand Alone Complex",
+        "genres": ["action", "crime", "cyberpunk", "scifi"],
+        "year": 2002,
+        "imdb": "https://www.imdb.com/title/tt0346314/"
+    },
+    {
+        "id": 27,
+        "title": "Kaguya-sama: Love is War",
+        "genres": ["comedy", "drama", "romance"],
+        "year": 2019,
+        "imdb": "https://www.imdb.com/title/tt9556748/"
+    },
+    {
+        "id": 28,
+        "title": "March Comes in Like a Lion",
+        "genres": ["drama", "psychological", "sliceoflife", "sports"],
+        "year": 2016,
+        "imdb": "https://www.imdb.com/title/tt5510022/"
+    },
+    {
+        "id": 29,
+        "title": "JoJo's Bizarre Adventure",
+        "genres": ["action", "adventure", "fantasy", "supernatural"],
+        "year": 2012,
+        "imdb": "https://www.imdb.com/title/tt2359704/"
+    },
+    {
+        "id": 30,
+        "title": "Ping Pong the Animation",
+        "genres": ["drama", "psychological", "sports"],
+        "year": 2014,
+        "imdb": "https://www.imdb.com/title/tt3592032/"
+    },
+    {
+        "id": 31,
+        "title": "Gurren Lagann",
+        "genres": ["action", "adventure", "mecha", "scifi"],
+        "year": 2007,
+        "imdb": "https://www.imdb.com/title/tt0948103/"
+    },
+    {
+        "id": 32,
+        "title": "Serial Experiments Lain",
+        "genres": ["cyberpunk", "drama", "mystery", "psychological"],
+        "year": 1998,
+        "imdb": "https://www.imdb.com/title/tt0500092/"
+    },
+    {
+        "id": 33,
+        "title": "Vagabond",
+        "genres": ["action", "adventure", "historical", "martialarts"],
+        "year": "N/A",
+        "imdb": "N/A"
+    },
+    {
+        "id": 34,
+        "title": "Your Lie in April",
+        "genres": ["drama", "music", "romance", "sliceoflife"],
+        "year": 2014,
+        "imdb": "https://www.imdb.com/title/tt3895150/"
+    },
+    {
+        "id": 35,
+        "title": "One Piece",
+        "genres": ["action", "adventure", "comedy", "fantasy"],
+        "year": 1999,
+        "imdb": "https://www.imdb.com/title/tt0388629/"
+    },
+    {
+        "id": 36,
+        "title": "Grave of the Fireflies",
+        "genres": ["drama", "historical", "tragedy"],
+        "year": 1988,
+        "imdb": "https://www.imdb.com/title/tt0095327/"
+    },
+    {
+        "id": 37,
+        "title": "Samurai Champloo",
+        "genres": ["action", "adventure", "comedy", "samurai"],
+        "year": 2004,
+        "imdb": "https://www.imdb.com/title/tt0423731/"
+    },
+    {
+        "id": 38,
+        "title": "Perfect Blue",
+        "genres": ["drama", "horror", "psychological", "thriller"],
+        "year": 1997,
+        "imdb": "https://www.imdb.com/title/tt0156887/"
+    },
+    {
+        "id": 39,
+        "title": "Bocchi the Rock!",
+        "genres": ["comedy", "music", "sliceoflife"],
+        "year": 2022,
+        "imdb": "https://www.imdb.com/title/tt21301944/"
+    },
+    {
+        "id": 40,
+        "title": "Naruto",
+        "genres": ["action", "adventure", "comedy", "fantasy"],
+        "year": 2002,
+        "imdb": "https://www.imdb.com/title/tt0409591/"
+    },
+    {
+        "id": 41,
+        "title": "Re:Zero - Starting Life in Another World",
+        "genres": ["drama", "fantasy", "isekai", "psychological", "thriller"],
+        "year": 2016
+    },
+    {
+        "id": 42,
+        "title": "Dororo",
+        "genres": ["action", "adventure", "demons", "historical", "supernatural"],
+        "year": 2019
+    },
+    {
+        "id": 43,
+        "title": "Black Clover",
+        "genres": ["action", "comedy", "fantasy", "magic"],
+        "year": 2017
+    },
+    {
+        "id": 44,
+        "title": "Assassination Classroom",
+        "genres": ["action", "comedy", "school", "scifi"],
+        "year": 2015
+    },
+    {
+        "id": 45,
+        "title": "That Time I Got Reincarnated as a Slime",
+        "genres": ["adventure", "comedy", "fantasy", "isekai"],
+        "year": 2018
+    },
+    {
+        "id": 46,
+        "title": "Erased",
+        "genres": ["drama", "mystery", "psychological", "supernatural", "thriller"],
+        "year": 2016
+    },
+    {
+        "id": 47,
+        "title": "Classroom of the Elite",
+        "genres": ["drama", "psychological", "school", "thriller"],
+        "year": 2017
+    },
+    {
+        "id": 48,
+        "title": "Bungo Stray Dogs",
+        "genres": ["action", "mystery", "supernatural"],
+        "year": 2016
+    },
+    {
+        "id": 49,
+        "title": "Fruits Basket (2019)",
+        "genres": ["drama", "fantasy", "romance", "sliceoflife", "supernatural"],
+        "year": 2019
+    },
+    {
+        "id": 50,
+        "title": "Promised Neverland (Season 1)",
+        "genres": ["drama", "fantasy", "horror", "mystery", "psychological", "thriller"],
+        "year": 2019
+    },
+    {
+        "id": 51,
+        "title": "Tokyo Ghoul (Season 1)",
+        "genres": ["action", "drama", "horror", "psychological", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 52,
+        "title": "Blue Lock",
+        "genres": ["action", "sports", "thriller"],
+        "year": 2022
+    },
+    {
+        "id": 53,
+        "title": "Chainsaw Man",
+        "genres": ["action", "adventure", "horror", "supernatural"],
+        "year": 2022
+    },
+    {
+        "id": 54,
+        "title": "My Hero Academia",
+        "genres": ["action", "comedy", "school", "superhero"],
+        "year": 2016
+    },
+    {
+        "id": 55,
+        "title": "Bleach",
+        "genres": ["action", "adventure", "fantasy", "supernatural"],
+        "year": 2004
+    },
+    {
+        "id": 56,
+        "title": "Trigun Stampede",
+        "genres": ["action", "adventure", "scifi", "space"],
+        "year": 2023
+    },
+    {
+        "id": 57,
+        "title": "Hinamatsuri",
+        "genres": ["comedy", "scifi", "sliceoflife", "supernatural"],
+        "year": 2018
+    },
+    {
+        "id": 58,
+        "title": "Love is War (Kaguya-sama: Love is War - Ultra Romantic)",
+        "genres": ["comedy", "drama", "romance"],
+        "year": 2022
+    },
+    {
+        "id": 59,
+        "title": "Golden Kamuy",
+        "genres": ["action", "adventure", "historical"],
+        "year": 2018
+    },
+    {
+        "id": 60,
+        "title": "Cyberpunk: Edgerunners",
+        "genres": ["action", "cyberpunk", "drama", "scifi", "thriller"],
+        "year": 2022
+    },
+    {
+        "id": 61,
+        "title": "Ranking of Kings",
+        "genres": ["adventure", "fantasy"],
+        "year": 2021
+    },
+    {
+        "id": 62,
+        "title": "Cells at Work!",
+        "genres": ["action", "comedy", "educational"],
+        "year": 2018
+    },
+    {
+        "id": 63,
+        "title": "The Melancholy of Haruhi Suzumiya",
+        "genres": ["comedy", "mystery", "scifi", "sliceoflife", "supernatural"],
+        "year": 2006
+    },
+    {
+        "id": 64,
+        "title": "FLCL (Fooly Cooly)",
+        "genres": ["action", "comedy", "mecha", "scifi", "surreal"],
+        "year": 2000
+    },
+    {
+        "id": 65,
+        "title": "To Your Eternity",
+        "genres": ["adventure", "drama", "fantasy", "supernatural"],
+        "year": 2021
+    },
+    {
+        "id": 66,
+        "title": "Hellsing Ultimate",
+        "genres": ["action", "horror", "supernatural", "vampire"],
+        "year": 2006
+    },
+    {
+        "id": 67,
+        "title": "Nana",
+        "genres": ["drama", "music", "romance", "sliceoflife"],
+        "year": 2006
+    },
+    {
+        "id": 68,
+        "title": "Violet Evergarden",
+        "genres": ["drama", "fantasy", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 69,
+        "title": "Toradora!",
+        "genres": ["comedy", "drama", "romance", "school"],
+        "year": 2008
+    },
+    {
+        "id": 70,
+        "title": "The Disastrous Life of Saiki K.",
+        "genres": ["comedy", "sliceoflife", "supernatural"],
+        "year": 2016
+    },
+    {
+        "id": 71,
+        "title": "Dr. Stone",
+        "genres": ["adventure", "comedy", "scifi"],
+        "year": 2019
+    },
+    {
+        "id": 72,
+        "title": "Konosuba: God's Blessing on This Wonderful World!",
+        "genres": ["adventure", "comedy", "fantasy", "isekai"],
+        "year": 2016
+    },
+    {
+        "id": 73,
+        "title": "Oshi no Ko",
+        "genres": ["drama", "mystery", "psychological", "supernatural"],
+        "year": 2023
+    },
+    {
+        "id": 74,
+        "title": "Summertime Render",
+        "genres": ["mystery", "supernatural", "thriller", "timetravel"],
+        "year": 2022
+    },
+    {
+        "id": 75,
+        "title": "Hell's Paradise",
+        "genres": ["action", "adventure", "fantasy", "historical"],
+        "year": 2023
+    },
+    {
+        "id": 76,
+        "title": "Magi: The Labyrinth of Magic",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2012
+    },
+    {
+        "id": 77,
+        "title": "Komi Can't Communicate",
+        "genres": ["comedy", "romance", "school", "sliceoflife"],
+        "year": 2021
+    },
+    {
+        "id": 78,
+        "title": "Pluto",
+        "genres": ["drama", "mystery", "psychological", "scifi", "thriller"],
+        "year": 2023
+    },
+    {
+        "id": 79,
+        "title": "Dorohedoro",
+        "genres": ["action", "comedy", "fantasy", "horror", "mystery", "supernatural"],
+        "year": 2020
+    },
+    {
+        "id": 80,
+        "title": "Land of Lustrous",
+        "genres": ["action", "drama", "fantasy", "psychological"],
+        "year": 2017
+    },
+    {
+        "id": 81,
+        "title": "Mushoku Tensei: Jobless Reincarnation",
+        "genres": ["adventure", "drama", "fantasy", "isekai"],
+        "year": 2021
+    },
+    {
+        "id": 82,
+        "title": "Anohana: The Flower We Saw That Day",
+        "genres": ["drama", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 83,
+        "title": "Welcome to the N.H.K.",
+        "genres": ["comedy", "drama", "psychological", "romance"],
+        "year": 2006
+    },
+    {
+        "id": 84,
+        "title": "Kaiji: Ultimate Survivor",
+        "genres": ["drama", "psychological", "strategy", "thriller"],
+        "year": 2007
+    },
+    {
+        "id": 85,
+        "title": "Paranoia Agent",
+        "genres": ["drama", "mystery", "psychological", "supernatural", "thriller"],
+        "year": 2004
+    },
+    {
+        "id": 86,
+        "title": "Great Teacher Onizuka",
+        "genres": ["comedy", "drama", "school"],
+        "year": 1999
+    },
+    {
+        "id": 87,
+        "title": "Devilman Crybaby",
+        "genres": ["action", "demons", "horror", "psychological", "supernatural"],
+        "year": 2018
+    },
+    {
+        "id": 88,
+        "title": "Yu Yu Hakusho",
+        "genres": ["action", "adventure", "comedy", "supernatural"],
+        "year": 1992
+    },
+    {
+        "id": 89,
+        "title": "Hellsing (TV)",
+        "genres": ["action", "horror", "supernatural", "vampire"],
+        "year": 2001
+    },
+    {
+        "id": 90,
+        "title": "Sword Art Online",
+        "genres": ["action", "adventure", "fantasy", "romance", "scifi"],
+        "year": 2012
+    },
+    {
+        "id": 91,
+        "title": "91 Days",
+        "genres": ["action", "drama", "historical", "organizedcrime", "thriller"],
+        "year": 2016
+    },
+    {
+        "id": 92,
+        "title": "A Certain Magical Index",
+        "genres": ["action", "fantasy", "scifi", "supernatural"],
+        "year": 2008
+    },
+    {
+        "id": 93,
+        "title": "A Place Further Than Universe",
+        "genres": ["adventure", "drama", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 94,
+        "title": "Akame ga Kill!",
+        "genres": ["action", "adventure", "fantasy", "tragedy"],
+        "year": 2014
+    },
+    {
+        "id": 95,
+        "title": "Akudama Drive",
+        "genres": ["action", "cyberpunk", "scifi", "thriller"],
+        "year": 2020
+    },
+    {
+        "id": 96,
+        "title": "Another",
+        "genres": ["horror", "mystery", "supernatural", "thriller"],
+        "year": 2012
+    },
+    {
+        "id": 97,
+        "title": "Aria the Animation",
+        "genres": ["fantasy", "iyashikei", "sliceoflife"],
+        "year": 2005
+    },
+    {
+        "id": 98,
+        "title": "Arslan Senki",
+        "genres": ["action", "adventure", "fantasy", "historical", "military"],
+        "year": 2015
+    },
+    {
+        "id": 99,
+        "title": "Ascendance of a Bookworm",
+        "genres": ["fantasy", "isekai", "sliceoflife"],
+        "year": 2019
+    },
+    {
+        "id": 100,
+        "title": "Astra Lost in Space",
+        "genres": ["adventure", "mystery", "scifi", "space"],
+        "year": 2019
+    },
+    {
+        "id": 101,
+        "title": "Baccano!",
+        "genres": ["action", "comedy", "historical", "organizedcrime", "supernatural"],
+        "year": 2007
+    },
+    {
+        "id": 102,
+        "title": "Baki Grappler",
+        "genres": ["action", "martialarts", "sports"],
+        "year": 2001
+    },
+    {
+        "id": 103,
+        "title": "Banana Fish",
+        "genres": ["action", "drama", "organizedcrime", "psychological", "thriller"],
+        "year": 2018
+    },
+    {
+        "id": 104,
+        "title": "Barakamon",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2014
+    },
+    {
+        "id": 105,
+        "title": "Basilisk",
+        "genres": ["action", "drama", "historical", "martialarts", "romance", "tragedy"],
+        "year": 2005
+    },
+    {
+        "id": 106,
+        "title": "Beastars",
+        "genres": ["drama", "psychological", "romance", "sliceoflife", "thriller"],
+        "year": 2019
+    },
+    {
+        "id": 107,
+        "title": "Beck",
+        "genres": ["comedy", "drama", "music", "sliceoflife"],
+        "year": 2004
+    },
+    {
+        "id": 108,
+        "title": "Beyond the Boundary",
+        "genres": ["action", "fantasy", "romance", "supernatural"],
+        "year": 2013
+    },
+    {
+        "id": 109,
+        "title": "Black Lagoon",
+        "genres": ["action", "organizedcrime"],
+        "year": 2006
+    },
+    {
+        "id": 110,
+        "title": "Blast of Tempest",
+        "genres": ["action", "fantasy", "mystery", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 111,
+        "title": "Blood-C",
+        "genres": ["action", "fantasy", "horror", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 112,
+        "title": "Blue Exorcist",
+        "genres": ["action", "demons", "fantasy", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 113,
+        "title": "Blue Period",
+        "genres": ["drama", "sliceoflife"],
+        "year": 2021
+    },
+    {
+        "id": 114,
+        "title": "Buddy Daddies",
+        "genres": ["action", "comedy", "sliceoflife"],
+        "year": 2023
+    },
+    {
+        "id": 115,
+        "title": "C: The Money of Soul and Possibility Control",
+        "genres": ["action", "psychological", "supernatural", "thriller"],
+        "year": 2011
+    },
+    {
+        "id": 116,
+        "title": "Canaan",
+        "genres": ["action", "thriller"],
+        "year": 2009
+    },
+    {
+        "id": 117,
+        "title": "Carole & Tuesday",
+        "genres": ["drama", "music", "scifi", "sliceoflife"],
+        "year": 2019
+    },
+    {
+        "id": 118,
+        "title": "Charlotte",
+        "genres": ["drama", "school", "supernatural"],
+        "year": 2015
+    },
+    {
+        "id": 119,
+        "title": "Chihayafuru",
+        "genres": ["drama", "sliceoflife", "sports"],
+        "year": 2011
+    },
+    {
+        "id": 120,
+        "title": "Children of the Whales",
+        "genres": ["drama", "fantasy", "scifi"],
+        "year": 2017
+    },
+    {
+        "id": 121,
+        "title": "Chrono Crusade",
+        "genres": ["action", "demons", "historical", "supernatural"],
+        "year": 2003
+    },
+    {
+        "id": 122,
+        "title": "Claymore",
+        "genres": ["action", "adventure", "fantasy", "horror"],
+        "year": 2007
+    },
+    {
+        "id": 123,
+        "title": "Code:Breaker",
+        "genres": ["action", "fantasy", "school", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 124,
+        "title": "Crayon Shin-chan",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 1992
+    },
+    {
+        "id": 125,
+        "title": "Daily Lives of High School Boys",
+        "genres": ["comedy", "school", "sliceoflife"],
+        "year": 2012
+    },
+    {
+        "id": 126,
+        "title": "Dance Dance Danseur",
+        "genres": ["drama", "performingarts", "sliceoflife"],
+        "year": 2022
+    },
+    {
+        "id": 127,
+        "title": "Darwin's Game",
+        "genres": ["action", "mystery", "survival", "thriller"],
+        "year": 2020
+    },
+    {
+        "id": 128,
+        "title": "Deadman Wonderland",
+        "genres": ["action", "horror", "scifi", "supernatural", "thriller"],
+        "year": 2011
+    },
+    {
+        "id": 129,
+        "title": "Deca-Dence",
+        "genres": ["action", "adventure", "fantasy", "scifi"],
+        "year": 2020
+    },
+    {
+        "id": 130,
+        "title": "Demon Slayer: Mugen Train (Movie)",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2020
+    },
+    {
+        "id": 131,
+        "title": "Devil is a Part-Timer!",
+        "genres": ["comedy", "fantasy", "sliceoflife"],
+        "year": 2013
+    },
+    {
+        "id": 132,
+        "title": "Durarara!!",
+        "genres": ["action", "mystery", "supernatural", "thriller"],
+        "year": 2010
+    },
+    {
+        "id": 133,
+        "title": "Eden of the East",
+        "genres": ["drama", "mystery", "romance", "thriller"],
+        "year": 2009
+    },
+    {
+        "id": 134,
+        "title": "Elfen Lied",
+        "genres": ["drama", "horror", "psychological", "scifi", "supernatural"],
+        "year": 2004
+    },
+    {
+        "id": 135,
+        "title": "Eureka Seven",
+        "genres": ["adventure", "drama", "mecha", "romance", "scifi"],
+        "year": 2005
+    },
+    {
+        "id": 136,
+        "title": "Fairy Tail",
+        "genres": ["action", "adventure", "comedy", "fantasy"],
+        "year": 2009
+    },
+    {
+        "id": 137,
+        "title": "Fate/Apocrypha",
+        "genres": ["action", "fantasy", "supernatural"],
+        "year": 2017
+    },
+    {
+        "id": 138,
+        "title": "Food Wars! Shokugeki no Soma",
+        "genres": ["comedy", "cooking", "school"],
+        "year": 2015
+    },
+    {
+        "id": 139,
+        "title": "From the New World",
+        "genres": ["drama", "mystery", "psychological", "scifi", "supernatural", "thriller"],
+        "year": 2012
+    },
+    {
+        "id": 140,
+        "title": "Full Metal Panic!",
+        "genres": ["action", "comedy", "mecha", "military", "romance"],
+        "year": 2002
+    },
+    {
+        "id": 141,
+        "title": "Gangsta.",
+        "genres": ["action", "drama", "organizedcrime"],
+        "year": 2015
+    },
+    {
+        "id": 142,
+        "title": "Gate",
+        "genres": ["action", "adventure", "fantasy", "isekai", "military"],
+        "year": 2015
+    },
+    {
+        "id": 143,
+        "title": "Girls' Last Tour",
+        "genres": ["adventure", "iyashikei", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 144,
+        "title": "Goblin Slayer",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2018
+    },
+    {
+        "id": 145,
+        "title": "God Eater",
+        "genres": ["action", "fantasy", "scifi"],
+        "year": 2015
+    },
+    {
+        "id": 146,
+        "title": "Grand Blue Dreaming",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 147,
+        "title": "Guilty Crown",
+        "genres": ["action", "drama", "mecha", "scifi", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 148,
+        "title": "Gunslinger Girl",
+        "genres": ["action", "drama", "scifi", "thriller"],
+        "year": 2003
+    },
+    {
+        "id": 149,
+        "title": "Hakuoki",
+        "genres": ["drama", "fantasy", "historical", "supernatural"],
+        "year": 2010
+    },
+    {
+        "id": 150,
+        "title": "Hamatora",
+        "genres": ["action", "mystery", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 151,
+        "title": "Handa-kun",
+        "genres": ["comedy", "school", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 152,
+        "title": "Hataraku Maou-sama! (The Devil is a Part-Timer!)",
+        "genres": ["comedy", "fantasy", "sliceoflife"],
+        "year": 2013
+    },
+    {
+        "id": 153,
+        "title": "Heaven's Memo Pad",
+        "genres": ["mystery", "sliceoflife"],
+        "year": 2011
+    },
+    {
+        "id": 154,
+        "title": "Heavenly Delusion",
+        "genres": ["adventure", "drama", "mystery", "scifi", "thriller"],
+        "year": 2023
+    },
+    {
+        "id": 155,
+        "title": "High School DxD",
+        "genres": ["action", "comedy", "ecchi", "fantasy", "harem", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 156,
+        "title": "High School of the Dead",
+        "genres": ["action", "ecchi", "horror", "zombie"],
+        "year": 2010
+    },
+    {
+        "id": 157,
+        "title": "Hikaru no Go",
+        "genres": ["comedy", "drama", "sliceoflife", "supernatural"],
+        "year": 2001
+    },
+    {
+        "id": 158,
+        "title": "Himouto! Umaru-chan",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2015
+    },
+    {
+        "id": 159,
+        "title": "Hyouka",
+        "genres": ["mystery", "sliceoflife"],
+        "year": 2012
+    },
+    {
+        "id": 160,
+        "title": "I Want to Eat Your Pancreas (Movie)",
+        "genres": ["drama", "romance", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 161,
+        "title": "In/Spectre",
+        "genres": ["fantasy", "mystery", "supernatural"],
+        "year": 2020
+    },
+    {
+        "id": 162,
+        "title": "Initial D",
+        "genres": ["action", "drama", "sports"],
+        "year": 1998
+    },
+    {
+        "id": 163,
+        "title": "Inuyasha",
+        "genres": ["action", "adventure", "fantasy", "historical", "romance", "supernatural"],
+        "year": 2000
+    },
+    {
+        "id": 164,
+        "title": "Iroduku: The World in Colors",
+        "genres": ["drama", "fantasy", "romance", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 165,
+        "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+        "genres": ["action", "adventure", "comedy", "fantasy"],
+        "year": 2015
+    },
+    {
+        "id": 166,
+        "title": "Jormungand",
+        "genres": ["action", "military", "organizedcrime"],
+        "year": 2012
+    },
+    {
+        "id": 167,
+        "title": "Josee, the Tiger and the Fish (Movie)",
+        "genres": ["drama", "romance", "sliceoflife"],
+        "year": 2020
+    },
+    {
+        "id": 168,
+        "title": "K",
+        "genres": ["action", "mystery", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 169,
+        "title": "Kabaneri of the Iron Fortress",
+        "genres": ["action", "fantasy", "horror", "steampunk", "zombie"],
+        "year": 2016
+    },
+    {
+        "id": 170,
+        "title": "Kakegurui",
+        "genres": ["drama", "psychological", "school", "thriller"],
+        "year": 2017
+    },
+    {
+        "id": 171,
+        "title": "Kamen no Maid Guy",
+        "genres": ["action", "comedy", "ecchi"],
+        "year": 2008
+    },
+    {
+        "id": 172,
+        "title": "Kekkai Sensen",
+        "genres": ["action", "fantasy", "supernatural"],
+        "year": 2015
+    },
+    {
+        "id": 173,
+        "title": "Kemono Jihen",
+        "genres": ["action", "fantasy", "mystery", "supernatural"],
+        "year": 2021
+    },
+    {
+        "id": 174,
+        "title": "Kenichi: The Mightiest Disciple",
+        "genres": ["action", "comedy", "martialarts", "school"],
+        "year": 2006
+    },
+    {
+        "id": 175,
+        "title": "Kino's Journey",
+        "genres": ["adventure", "fantasy", "sliceoflife"],
+        "year": 2003
+    },
+    {
+        "id": 176,
+        "title": "Kiznaiver",
+        "genres": ["drama", "scifi", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 177,
+        "title": "K-On!",
+        "genres": ["comedy", "music", "sliceoflife"],
+        "year": 2009
+    },
+    {
+        "id": 178,
+        "title": "Kokoro Connect",
+        "genres": ["drama", "romance", "school", "sliceoflife", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 179,
+        "title": "Kyousougiga",
+        "genres": ["action", "fantasy", "sliceoflife", "supernatural"],
+        "year": 2013
+    },
+    {
+        "id": 180,
+        "title": "Last Exile",
+        "genres": ["adventure", "fantasy", "military", "steampunk"],
+        "year": 2003
+    },
+    {
+        "id": 181,
+        "title": "Love, Chunibyo & Other Delusions!",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2012
+    },
+    {
+        "id": 182,
+        "title": "Lucky Star",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2007
+    },
+    {
+        "id": 183,
+        "title": "Mairimashita! Iruma-kun",
+        "genres": ["comedy", "fantasy", "school", "supernatural"],
+        "year": 2019
+    },
+    {
+        "id": 184,
+        "title": "Maquia: When the Promised Flower Blooms (Movie)",
+        "genres": ["drama", "fantasy", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 185,
+        "title": "Megalobox",
+        "genres": ["action", "drama", "sports"],
+        "year": 2018
+    },
+    {
+        "id": 186,
+        "title": "Miss Kobayashi's Dragon Maid",
+        "genres": ["comedy", "fantasy", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 187,
+        "title": "Mononoke (Not Princess)",
+        "genres": ["fantasy", "historical", "horror", "mystery", "supernatural"],
+        "year": 2007
+    },
+    {
+        "id": 188,
+        "title": "Moriarty the Patriot",
+        "genres": ["drama", "historical", "mystery", "thriller"],
+        "year": 2020
+    },
+    {
+        "id": 189,
+        "title": "Mushi-Shi: The Next Chapter",
+        "genres": ["adventure", "fantasy", "mystery", "sliceoflife", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 190,
+        "title": "My Dress-Up Darling",
+        "genres": ["comedy", "romance", "sliceoflife"],
+        "year": 2022
+    },
+    {
+        "id": 191,
+        "title": "A Channel",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2011
+    },
+    {
+        "id": 192,
+        "title": "A Lull in the Sea",
+        "genres": ["drama", "fantasy", "romance"],
+        "year": 2013
+    },
+    {
+        "id": 193,
+        "title": "A Sister's All You Need",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 194,
+        "title": "ACCA: 13-Territory Inspection Dept.",
+        "genres": ["drama", "mystery", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 195,
+        "title": "After the Rain",
+        "genres": ["drama", "romance", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 196,
+        "title": "Air",
+        "genres": ["drama", "fantasy", "romance", "supernatural"],
+        "year": 2005
+    },
+    {
+        "id": 197,
+        "title": "Akira",
+        "genres": ["action", "adventure", "horror", "scifi"],
+        "year": 1988
+    },
+    {
+        "id": 198,
+        "title": "Alice & Zoroku",
+        "genres": ["adventure", "fantasy", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 199,
+        "title": "Alice in Borderland",
+        "genres": ["action", "horror", "mystery", "psychological", "survival", "thriller"],
+        "year": 2020
+    },
+    {
+        "id": 200,
+        "title": "Amagi Brilliant Park",
+        "genres": ["comedy", "fantasy"],
+        "year": 2014
+    },
+    {
+        "id": 201,
+        "title": "Amnesia",
+        "genres": ["drama", "fantasy", "mystery", "romance"],
+        "year": 2013
+    },
+    {
+        "id": 202,
+        "title": "And you thought there is never a girl online?",
+        "genres": ["comedy", "romance"],
+        "year": 2016
+    },
+    {
+        "id": 203,
+        "title": "Angel Beats!",
+        "genres": ["action", "comedy", "drama", "fantasy"],
+        "year": 2010
+    },
+    {
+        "id": 204,
+        "title": "Angels of Death",
+        "genres": ["adventure", "horror", "psychological", "thriller"],
+        "year": 2018
+    },
+    {
+        "id": 205,
+        "title": "Anne-Happy",
+        "genres": ["comedy", "school", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 206,
+        "title": "Anonymous Noise",
+        "genres": ["drama", "music", "romance"],
+        "year": 2017
+    },
+    {
+        "id": 207,
+        "title": "Ao-chan Can't Study!",
+        "genres": ["comedy", "romance"],
+        "year": 2019
+    },
+    {
+        "id": 208,
+        "title": "Ao Haru Ride",
+        "genres": ["drama", "romance", "school", "sliceoflife"],
+        "year": 2014
+    },
+    {
+        "id": 209,
+        "title": "Aoharu x Machinegun",
+        "genres": ["action", "comedy"],
+        "year": 2015
+    },
+    {
+        "id": 210,
+        "title": "Arakawa Under the Bridge",
+        "genres": ["comedy", "romance", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 211,
+        "title": "Arata: The Legend",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2013
+    },
+    {
+        "id": 212,
+        "title": "Arpeggio of Blue Steel",
+        "genres": ["action", "mecha", "military", "scifi"],
+        "year": 2013
+    },
+    {
+        "id": 213,
+        "title": "As the Moon, So Beautiful",
+        "genres": ["drama", "romance", "school", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 214,
+        "title": "Assault Lily: Bouquet",
+        "genres": ["action", "fantasy"],
+        "year": 2020
+    },
+    {
+        "id": 215,
+        "title": "Astra Lost in Space",
+        "genres": ["adventure", "mystery", "scifi", "space"],
+        "year": 2019
+    },
+    {
+        "id": 216,
+        "title": "Atelier Escha & Logy: Alchemists of Dusk Sky",
+        "genres": ["adventure", "fantasy"],
+        "year": 2014
+    },
+    {
+        "id": 217,
+        "title": "Aura: Maryuinkoga Saigo no Tatakai",
+        "genres": ["action", "comedy", "drama", "fantasy", "romance", "school"],
+        "year": 2013
+    },
+    {
+        "id": 218,
+        "title": "B: The Beginning",
+        "genres": ["action", "mystery", "police", "psychological", "supernatural", "thriller"],
+        "year": 2018
+    },
+    {
+        "id": 219,
+        "title": "Babylon",
+        "genres": ["mystery", "psychological", "thriller"],
+        "year": 2019
+    },
+    {
+        "id": 220,
+        "title": "Back Street Girls: Gokudols",
+        "genres": ["comedy"],
+        "year": 2018
+    },
+    {
+        "id": 221,
+        "title": "Baka and Test",
+        "genres": ["comedy", "fantasy", "school"],
+        "year": 2010
+    },
+    {
+        "id": 222,
+        "title": "Bartender",
+        "genres": ["drama", "sliceoflife"],
+        "year": 2006
+    },
+    {
+        "id": 223,
+        "title": "Battle Girl High School",
+        "genres": ["action", "school"],
+        "year": 2017
+    },
+    {
+        "id": 224,
+        "title": "Beast Player Erin",
+        "genres": ["adventure", "drama", "fantasy", "sliceoflife"],
+        "year": 2009
+    },
+    {
+        "id": 225,
+        "title": "Beelzebub",
+        "genres": ["action", "comedy", "demons", "school", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 226,
+        "title": "Ben-To",
+        "genres": ["action", "comedy"],
+        "year": 2011
+    },
+    {
+        "id": 227,
+        "title": "Big Order",
+        "genres": ["action", "supernatural"],
+        "year": 2016
+    },
+    {
+        "id": 228,
+        "title": "Black Blood Brothers",
+        "genres": ["action", "supernatural", "vampire"],
+        "year": 2006
+    },
+    {
+        "id": 229,
+        "title": "Black Bullet",
+        "genres": ["action", "drama", "scifi", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 230,
+        "title": "Black Butler",
+        "genres": ["action", "comedy", "fantasy", "historical", "supernatural"],
+        "year": 2008
+    },
+    {
+        "id": 231,
+        "title": "Blade of the Immortal",
+        "genres": ["action", "adventure", "historical", "martialarts", "supernatural"],
+        "year": 2008
+    },
+    {
+        "id": 232,
+        "title": "Blassreiter",
+        "genres": ["action", "drama", "horror", "mecha", "scifi", "supernatural"],
+        "year": 2008
+    },
+    {
+        "id": 233,
+        "title": "BlazBlue: Alter Memory",
+        "genres": ["action", "fantasy"],
+        "year": 2013
+    },
+    {
+        "id": 234,
+        "title": "Blend S",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 235,
+        "title": "Blood Lad",
+        "genres": ["action", "comedy", "demons", "fantasy", "supernatural", "vampire"],
+        "year": 2013
+    },
+    {
+        "id": 236,
+        "title": "Blue Drop",
+        "genres": ["drama", "romance", "scifi", "sliceoflife", "yuri"],
+        "year": 2007
+    },
+    {
+        "id": 237,
+        "title": "Blue Spring Ride",
+        "genres": ["drama", "romance", "school", "sliceoflife"],
+        "year": 2014
+    },
+    {
+        "id": 238,
+        "title": "Bodacious Space Pirates",
+        "genres": ["adventure", "scifi", "space"],
+        "year": 2012
+    },
+    {
+        "id": 239,
+        "title": "Boogiepop Phantom",
+        "genres": ["drama", "horror", "mystery", "psychological", "supernatural"],
+        "year": 2000
+    },
+    {
+        "id": 240,
+        "title": "Brave 10",
+        "genres": ["action", "historical", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 241,
+        "title": "Brothers Conflict",
+        "genres": ["drama", "harem", "romance"],
+        "year": 2013
+    },
+    {
+        "id": 242,
+        "title": "Brynhildr in the Darkness",
+        "genres": ["drama", "horror", "mystery", "scifi", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 243,
+        "title": "Bubble",
+        "genres": ["adventure", "drama", "fantasy", "romance", "scifi"],
+        "year": 2022
+    },
+    {
+        "id": 244,
+        "title": "Burning Kabaddi",
+        "genres": ["comedy", "sports"],
+        "year": 2021
+    },
+    {
+        "id": 245,
+        "title": "Busou Shinki",
+        "genres": ["action", "mecha"],
+        "year": 2012
+    },
+    {
+        "id": 246,
+        "title": "Canaan",
+        "genres": ["action", "thriller"],
+        "year": 2009
+    },
+    {
+        "id": 247,
+        "title": "Carole & Tuesday",
+        "genres": ["drama", "music", "scifi", "sliceoflife"],
+        "year": 2019
+    },
+    {
+        "id": 248,
+        "title": "Charlotte",
+        "genres": ["drama", "school", "supernatural"],
+        "year": 2015
+    },
+    {
+        "id": 249,
+        "title": "Chihayafuru",
+        "genres": ["drama", "sliceoflife", "sports"],
+        "year": 2011
+    },
+    {
+        "id": 250,
+        "title": "Children of the Whales",
+        "genres": ["drama", "fantasy", "scifi"],
+        "year": 2017
+    },
+    {
+        "id": 251,
+        "title": "Busou Shoujo Machiavellianism",
+        "genres": ["action", "comedy", "ecchi", "school"],
+        "year": 2017
+    },
+    {
+        "id": 252,
+        "title": "Butlers: Chitose Momotose Monogatari",
+        "genres": ["comedy", "sliceoflife", "supernatural"],
+        "year": 2018
+    },
+    {
+        "id": 253,
+        "title": "Caligula",
+        "genres": ["action", "psychological", "scifi"],
+        "year": 2018
+    },
+    {
+        "id": 254,
+        "title": "Campione!",
+        "genres": ["action", "fantasy", "harem", "mythology", "romance", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 255,
+        "title": "Cannon Busters",
+        "genres": ["action", "adventure", "fantasy", "scifi"],
+        "year": 2019
+    },
+    {
+        "id": 256,
+        "title": "Captain Tsubasa",
+        "genres": ["sports"],
+        "year": 2018
+    },
+    {
+        "id": 257,
+        "title": "Cardcaptor Sakura",
+        "genres": ["adventure", "comedy", "drama", "fantasy", "magic", "romance", "sliceoflife"],
+        "year": 1998
+    },
+    {
+        "id": 258,
+        "title": "Casshern Sins",
+        "genres": ["action", "adventure", "drama", "scifi"],
+        "year": 2008
+    },
+    {
+        "id": 259,
+        "title": "Castlevania",
+        "genres": ["action", "adventure", "fantasy", "horror"],
+        "year": 2017
+    },
+    {
+        "id": 260,
+        "title": "Cat Planet Cuties",
+        "genres": ["comedy", "ecchi", "romance", "scifi"],
+        "year": 2010
+    },
+    {
+        "id": 261,
+        "title": "Cautious Hero",
+        "genres": ["adventure", "comedy", "fantasy", "isekai"],
+        "year": 2019
+    },
+    {
+        "id": 262,
+        "title": "Chaika - The Coffin Princess",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2014
+    },
+    {
+        "id": 263,
+        "title": "Chain Chronicle",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2017
+    },
+    {
+        "id": 264,
+        "title": "Charlotte",
+        "genres": ["drama", "school", "supernatural"],
+        "year": 2015
+    },
+    {
+        "id": 265,
+        "title": "Cheer Boys!!",
+        "genres": ["comedy", "sports"],
+        "year": 2016
+    },
+    {
+        "id": 266,
+        "title": "Chio's School Road",
+        "genres": ["comedy", "school", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 267,
+        "title": "Chivalry of a Failed Knight",
+        "genres": ["action", "fantasy", "romance", "school"],
+        "year": 2015
+    },
+    {
+        "id": 268,
+        "title": "Chobits",
+        "genres": ["comedy", "drama", "romance", "scifi"],
+        "year": 2002
+    },
+    {
+        "id": 269,
+        "title": "Chrome Shelled Regios",
+        "genres": ["action", "fantasy", "scifi"],
+        "year": 2009
+    },
+    {
+        "id": 270,
+        "title": "Chronicles of the Going Home Club",
+        "genres": ["comedy", "school", "sliceoflife"],
+        "year": 2013
+    },
+    {
+        "id": 271,
+        "title": "Chuunibyou demo Koi ga Shitai!",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2012
+    },
+    {
+        "id": 272,
+        "title": "City Hunter",
+        "genres": ["action", "comedy", "mystery", "romance"],
+        "year": 1987
+    },
+    {
+        "id": 273,
+        "title": "Classroom Crisis",
+        "genres": ["drama", "romance", "school", "scifi", "space"],
+        "year": 2015
+    },
+    {
+        "id": 274,
+        "title": "Comic Girls",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 275,
+        "title": "Concrete Revolutio",
+        "genres": ["action", "fantasy", "scifi", "superhero"],
+        "year": 2015
+    },
+    {
+        "id": 276,
+        "title": "Cop Craft",
+        "genres": ["action", "fantasy", "police"],
+        "year": 2019
+    },
+    {
+        "id": 277,
+        "title": "Corpse Party: Tortured Souls",
+        "genres": ["horror", "supernatural"],
+        "year": 2013
+    },
+    {
+        "id": 278,
+        "title": "Cross Ange",
+        "genres": ["action", "drama", "fantasy", "mecha", "scifi"],
+        "year": 2014
+    },
+    {
+        "id": 279,
+        "title": "Cute High Earth Defense Club LOVE!",
+        "genres": ["comedy", "magic", "parody"],
+        "year": 2015
+    },
+    {
+        "id": 280,
+        "title": "D.Gray-man",
+        "genres": ["action", "adventure", "fantasy", "horror", "supernatural"],
+        "year": 2006
+    },
+    {
+        "id": 281,
+        "title": "D.N.Angel",
+        "genres": ["comedy", "fantasy", "romance", "supernatural"],
+        "year": 2003
+    },
+    {
+        "id": 282,
+        "title": "D-Frag!",
+        "genres": ["comedy", "school"],
+        "year": 2014
+    },
+    {
+        "id": 283,
+        "title": "Daimidaler: Prince vs Penguin Empire",
+        "genres": ["action", "comedy", "ecchi", "mecha"],
+        "year": 2014
+    },
+    {
+        "id": 284,
+        "title": "Dakaretai Otoko 1-i ni Odosarete Imasu.",
+        "genres": ["comedy", "drama", "romance", "yaoi"],
+        "year": 2018
+    },
+    {
+        "id": 285,
+        "title": "Dance in the Vampire Bund",
+        "genres": ["action", "horror", "supernatural", "vampire"],
+        "year": 2010
+    },
+    {
+        "id": 286,
+        "title": "Danganronpa: The Animation",
+        "genres": ["horror", "mystery", "psychological", "thriller"],
+        "year": 2013
+    },
+    {
+        "id": 287,
+        "title": "Dantalian no Shoka",
+        "genres": ["fantasy", "mystery", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 288,
+        "title": "Darling in the Franxx",
+        "genres": ["action", "drama", "mecha", "romance", "scifi"],
+        "year": 2018
+    },
+    {
+        "id": 289,
+        "title": "Date A Live",
+        "genres": ["action", "comedy", "harem", "romance", "school", "scifi", "supernatural"],
+        "year": 2013
+    },
+    {
+        "id": 290,
+        "title": "Dead Leaves",
+        "genres": ["action", "comedy", "scifi"],
+        "year": 2004
+    },
+    {
+        "id": 291,
+        "title": "DearS",
+        "genres": ["comedy", "romance", "scifi"],
+        "year": 2004
+    },
+    {
+        "id": 292,
+        "title": "Death March to the Parallel World Rhapsody",
+        "genres": ["adventure", "fantasy", "harem", "isekai"],
+        "year": 2018
+    },
+    {
+        "id": 293,
+        "title": "Death Parade",
+        "genres": ["drama", "game", "psychological", "supernatural", "thriller"],
+        "year": 2015
+    },
+    {
+        "id": 294,
+        "title": "Demon King Daimao",
+        "genres": ["action", "comedy", "fantasy", "harem", "romance", "school", "supernatural"],
+        "year": 2010
+    },
+    {
+        "id": 295,
+        "title": "Desert Punk",
+        "genres": ["action", "adventure", "comedy", "ecchi", "postapocalyptic", "scifi"],
+        "year": 2004
+    },
+    {
+        "id": 296,
+        "title": "D-Frag!",
+        "genres": ["comedy", "school"],
+        "year": 2014
+    },
+    {
+        "id": 297,
+        "title": "Daimidaler: Prince vs Penguin Empire",
+        "genres": ["action", "comedy", "ecchi", "mecha"],
+        "year": 2014
+    },
+    {
+        "id": 298,
+        "title": "Dakaretai Otoko 1-i ni Odosarete Imasu.",
+        "genres": ["comedy", "drama", "romance", "yaoi"],
+        "year": 2018
+    },
+    {
+        "id": 299,
+        "title": "Dance in the Vampire Bund",
+        "genres": ["action", "horror", "supernatural", "vampire"],
+        "year": 2010
+    },
+    {
+        "id": 300,
+        "title": "Danganronpa: The Animation",
+        "genres": ["horror", "mystery", "psychological", "thriller"],
+        "year": 2013
+    },
+    {
+        "id": 301,
+        "title": "Devil Survivor 2 The Animation",
+        "genres": ["action", "fantasy", "supernatural"],
+        "year": 2013
+    },
+    {
+        "id": 302,
+        "title": "Diabolik Lovers",
+        "genres": ["drama", "harem", "horror", "supernatural", "vampire"],
+        "year": 2013
+    },
+    {
+        "id": 303,
+        "title": "Diabolik Lovers More, Blood",
+        "genres": ["drama", "harem", "horror", "supernatural", "vampire"],
+        "year": 2015
+    },
+    {
+        "id": 304,
+        "title": "Dies Irae",
+        "genres": ["action", "historical", "supernatural"],
+        "year": 2017
+    },
+    {
+        "id": 305,
+        "title": "Dimension W",
+        "genres": ["action", "mystery", "scifi"],
+        "year": 2016
+    },
+    {
+        "id": 306,
+        "title": "Divine Gate",
+        "genres": ["action", "fantasy", "supernatural"],
+        "year": 2016
+    },
+    {
+        "id": 307,
+        "title": "Doctor Stone: Stone Wars",
+        "genres": ["adventure", "comedy", "scifi"],
+        "year": 2021
+    },
+    {
+        "id": 308,
+        "title": "Dog & Scissors",
+        "genres": ["comedy", "parody"],
+        "year": 2013
+    },
+    {
+        "id": 309,
+        "title": "Dog Days",
+        "genres": ["action", "adventure", "comedy", "fantasy"],
+        "year": 2011
+    },
+    {
+        "id": 310,
+        "title": "Domestic Girlfriend",
+        "genres": ["drama", "romance", "sliceoflife"],
+        "year": 2019
+    },
+    {
+        "id": 311,
+        "title": "Don't Toy with Me, Miss Nagatoro",
+        "genres": ["comedy", "romance", "school", "sliceoflife"],
+        "year": 2021
+    },
+    {
+        "id": 312,
+        "title": "Dragon Ball",
+        "genres": ["action", "adventure", "comedy", "fantasy", "martialarts"],
+        "year": 1986
+    },
+    {
+        "id": 313,
+        "title": "Dragon Ball GT",
+        "genres": ["action", "adventure", "comedy", "fantasy", "martialarts", "scifi"],
+        "year": 1996
+    },
+    {
+        "id": 314,
+        "title": "Dragon Ball Super",
+        "genres": ["action", "adventure", "comedy", "fantasy", "martialarts"],
+        "year": 2015
+    },
+    {
+        "id": 315,
+        "title": "Dragon Ball Z",
+        "genres": ["action", "adventure", "comedy", "fantasy", "martialarts"],
+        "year": 1989
+    },
+    {
+        "id": 316,
+        "title": "Dragon Crisis!",
+        "genres": ["action", "fantasy", "romance", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 317,
+        "title": "Dragon Pilot",
+        "genres": ["action", "fantasy", "military"],
+        "year": 2018
+    },
+    {
+        "id": 318,
+        "title": "Dragonar Academy",
+        "genres": ["action", "fantasy", "harem", "romance", "school"],
+        "year": 2014
+    },
+    {
+        "id": 319,
+        "title": "Dragon's Dogma",
+        "genres": ["action", "adventure", "fantasy"],
+        "year": 2020
+    },
+    {
+        "id": 320,
+        "title": "Drifters",
+        "genres": ["action", "adventure", "fantasy", "historical", "isekai"],
+        "year": 2016
+    },
+    {
+        "id": 321,
+        "title": "ef: A Tale of Memories",
+        "genres": ["drama", "romance"],
+        "year": 2007
+    },
+    {
+        "id": 322,
+        "title": "elDLIVE",
+        "genres": ["action", "comedy", "scifi", "space"],
+        "year": 2017
+    },
+    {
+        "id": 323,
+        "title": "Emma: A Victorian Romance",
+        "genres": ["drama", "historical", "romance", "sliceoflife"],
+        "year": 2005
+    },
+    {
+        "id": 324,
+        "title": "Endride",
+        "genres": ["action", "adventure", "fantasy", "isekai"],
+        "year": 2016
+    },
+    {
+        "id": 325,
+        "title": "Engaged to the Unidentified",
+        "genres": ["comedy", "romance", "sliceoflife", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 326,
+        "title": "Etotama",
+        "genres": ["action", "comedy", "fantasy"],
+        "year": 2015
+    },
+    {
+        "id": 327,
+        "title": "Eureka Seven AO",
+        "genres": ["action", "adventure", "mecha", "scifi"],
+        "year": 2012
+    },
+    {
+        "id": 328,
+        "title": "Excel Saga",
+        "genres": ["comedy", "parody"],
+        "year": 1999
+    },
+    {
+        "id": 329,
+        "title": "Eyeshield 21",
+        "genres": ["comedy", "sports"],
+        "year": 2005
+    },
+    {
+        "id": 330,
+        "title": "Fairy Gone",
+        "genres": ["action", "fantasy", "military", "supernatural"],
+        "year": 2019
+    },
+    {
+        "id": 331,
+        "title": "Fairy Tail: Final Series",
+        "genres": ["action", "adventure", "comedy", "fantasy"],
+        "year": 2018
+    },
+    {
+        "id": 332,
+        "title": "Familiar of Zero",
+        "genres": ["adventure", "fantasy", "harem", "romance", "school"],
+        "year": 2006
+    },
+    {
+        "id": 333,
+        "title": "Fantasista Doll",
+        "genres": ["action", "fantasy"],
+        "year": 2013
+    },
+    {
+        "id": 334,
+        "title": "Fate/Extra Last Encore",
+        "genres": ["action", "fantasy", "mystery", "supernatural"],
+        "year": 2018
+    },
+    {
+        "id": 335,
+        "title": "Fate/Grand Order: First Order",
+        "genres": ["action", "fantasy", "supernatural"],
+        "year": 2016
+    },
+    {
+        "id": 336,
+        "title": "Fate/kaleid liner Prisma Illya",
+        "genres": ["action", "comedy", "fantasy", "magic", "sliceoflife"],
+        "year": 2013
+    },
+    {
+        "id": 337,
+        "title": "Fate/Stay Night",
+        "genres": ["action", "fantasy", "romance", "supernatural"],
+        "year": 2006
+    },
+    {
+        "id": 338,
+        "title": "Fena: Pirate Princess",
+        "genres": ["action", "adventure", "fantasy", "historical"],
+        "year": 2021
+    },
+    {
+        "id": 339,
+        "title": "Fight Ippatsu! Juuden-chan!!",
+        "genres": ["comedy", "ecchi", "scifi"],
+        "year": 2009
+    },
+    {
+        "id": 340,
+        "title": "Fire Force",
+        "genres": ["action", "fantasy", "supernatural"],
+        "year": 2019
+    },
+    {
+        "id": 341,
+        "title": "First Love Monster",
+        "genres": ["comedy", "romance", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 342,
+        "title": "Flavor of Youth",
+        "genres": ["drama", "romance", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 343,
+        "title": "Flying Witch",
+        "genres": ["comedy", "fantasy", "sliceoflife", "supernatural"],
+        "year": 2016
+    },
+    {
+        "id": 344,
+        "title": "Food Wars! The Fifth Plate",
+        "genres": ["comedy", "cooking", "school"],
+        "year": 2020
+    },
+    {
+        "id": 345,
+        "title": "Fortune Arterial",
+        "genres": ["drama", "romance", "school", "supernatural", "vampire"],
+        "year": 2010
+    },
+    {
+        "id": 346,
+        "title": "Fractale",
+        "genres": ["adventure", "fantasy", "romance", "scifi"],
+        "year": 2011
+    },
+    {
+        "id": 347,
+        "title": "Free!",
+        "genres": ["comedy", "drama", "school", "sliceoflife", "sports"],
+        "year": 2013
+    },
+    {
+        "id": 348,
+        "title": "Freezing",
+        "genres": ["action", "ecchi", "military", "scifi"],
+        "year": 2011
+    },
+    {
+        "id": 349,
+        "title": "From Me to You",
+        "genres": ["drama", "romance", "school", "sliceoflife"],
+        "year": 2009
+    },
+    {
+        "id": 350,
+        "title": "Fruits Basket: The Final",
+        "genres": ["drama", "fantasy", "romance", "sliceoflife", "supernatural"],
+        "year": 2021
+    },
+    {
+        "id": 351,
+        "title": "Full Metal Panic? Fumoffu",
+        "genres": ["action", "comedy", "military", "school"],
+        "year": 2003
+    },
+    {
+        "id": 352,
+        "title": "Full Metal Panic! The Second Raid",
+        "genres": ["action", "mecha", "military", "romance", "thriller"],
+        "year": 2005
+    },
+    {
+        "id": 353,
+        "title": "Future Diary",
+        "genres": ["action", "psychological", "romance", "supernatural", "thriller"],
+        "year": 2011
+    },
+    {
+        "id": 354,
+        "title": "Gakuen Alice",
+        "genres": ["comedy", "drama", "fantasy", "romance", "school"],
+        "year": 2004
+    },
+    {
+        "id": 355,
+        "title": "Gakuen Basara",
+        "genres": ["action", "comedy", "historical", "school"],
+        "year": 2018
+    },
+    {
+        "id": 356,
+        "title": "Gakuen Heaven",
+        "genres": ["comedy", "drama", "romance", "school", "yaoi"],
+        "year": 2006
+    },
+    {
+        "id": 357,
+        "title": "Gakuen Utopia Manabi Straight!",
+        "genres": ["comedy", "school", "sliceoflife"],
+        "year": 2007
+    },
+    {
+        "id": 358,
+        "title": "Gakkou no kaidan",
+        "genres": ["comedy", "drama", "fantasy", "romance", "school", "supernatural"],
+        "year": 2003
+    },
+    {
+        "id": 359,
+        "title": "Gakuto no Vector",
+        "genres": ["comedy", "drama", "romance", "school", "yaoi"],
+        "year": 2016
+    },
+    {
+        "id": 360,
+        "title": "Gakusen Toshi Asterisk",
+        "genres": ["action", "comedy", "fantasy", "harem", "romance", "school"],
+        "year": 2015
+    },
+    {
+        "id": 361,
+        "title": "Gankutsuou: The Count of Monte Cristo",
+        "genres": ["action", "adventure", "drama", "historical", "scifi"],
+        "year": 2004
+    },
+    {
+        "id": 362,
+        "title": "Garden of Words",
+        "genres": ["drama", "romance"],
+        "year": 2013
+    },
+    {
+        "id": 363,
+        "title": "Gatchaman Crowds Insight",
+        "genres": ["action", "scifi", "superhero"],
+        "year": 2015
+    },
+    {
+        "id": 364,
+        "title": "Gatchaman Crowds",
+        "genres": ["action", "scifi", "superhero"],
+        "year": 2013
+    },
+    {
+        "id": 365,
+        "title": "Gate Keepers",
+        "genres": ["action", "historical", "supernatural"],
+        "year": 2000
+    },
+    {
+        "id": 366,
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+        "genres": ["action", "adventure", "fantasy", "isekai", "military"],
+        "year": 2015
+    },
+    {
+        "id": 367,
+        "title": "GATE: Enforced Arrangement to Order War Between Worlds",
+        "genres": ["action", "fantasy", "military", "romance"],
+        "year": 2012
+    },
+    {
+        "id": 368,
+        "title": "Gauche the Cellist",
+        "genres": ["adventure", "drama", "fantasy", "music"],
+        "year": 2016
+    },
+    {
+        "id": 369,
+        "title": "Genshiken",
+        "genres": ["comedy", "school", "sliceoflife"],
+        "year": 2007
+    },
+    {
+        "id": 370,
+        "title": "Ghost in the Shell: Arise",
+        "genres": ["action", "cyberpunk", "scifi", "thriller"],
+        "year": 2013
+    },
+    {
+        "id": 371,
+        "title": "Ghost in the Shell: SAC_2045",
+        "genres": ["action", "cyberpunk", "scifi", "thriller"],
+        "year": 2020
+    },
+    {
+        "id": 372,
+        "title": "Ghost in the Shell: Stand Alone Complex",
+        "genres": ["action", "cyberpunk", "scifi", "thriller"],
+        "year": 2002
+    },
+    {
+        "id": 373,
+        "title": "Giant Killing",
+        "genres": ["comedy", "sports"],
+        "year": 2010
+    },
+    {
+        "id": 374,
+        "title": "Girls Beyond the Wasteland",
+        "genres": ["comedy", "drama", "fantasy", "school", "sliceoflife"],
+        "year": 2008
+    },
+    {
+        "id": 375,
+        "title": "Girls Frontline",
+        "genres": ["action", "mecha", "military", "scifi"],
+        "year": 2019
+    },
+    {
+        "id": 376,
+        "title": "Girls' Frontline",
+        "genres": ["action", "military", "scifi"],
+        "year": 2019
+    },
+    {
+        "id": 377,
+        "title": "Girls' Work",
+        "genres": ["drama", "romance", "sliceoflife"],
+        "year": 2013
+    },
+    {
+        "id": 378,
+        "title": "Gleipnir",
+        "genres": ["action", "comedy", "drama", "fantasy", "psychological", "romance", "school"],
+        "year": 2020
+    },
+    {
+        "id": 379,
+        "title": "Gleipnir",
+        "genres": ["action", "drama", "fantasy", "romance", "school", "supernatural"],
+        "year": 2020
+    },
+    {
+        "id": 380,
+        "title": "Goddess Blessing in This Wonderful World!",
+        "genres": ["adventure", "comedy", "fantasy", "isekai"],
+        "year": 2016
+    },
+    {
+        "id": 381,
+        "title": "Golden Time",
+        "genres": ["comedy", "drama", "romance", "school"],
+        "year": 2013
+    },
+    {
+        "id": 382,
+        "title": "Gosick",
+        "genres": ["drama", "fantasy", "historical", "mystery", "romance"],
+        "year": 2011
+    },
+    {
+        "id": 383,
+        "title": "Grimgar of Fantasy and Ash",
+        "genres": ["action", "adventure", "drama", "fantasy"],
+        "year": 2016
+    },
+    {
+        "id": 384,
+        "title": "Gugure! Kokkuri-san",
+        "genres": ["comedy", "drama", "fantasy", "romance", "school", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 385,
+        "title": "Gun Gale Online",
+        "genres": ["action", "fantasy", "scifi"],
+        "year": 2018
+    },
+    {
+        "id": 386,
+        "title": "Gunparade March",
+        "genres": ["action", "fantasy", "military", "romance"],
+        "year": 2003
+    },
+    {
+        "id": 387,
+        "title": "Gunparade Orchestra",
+        "genres": ["action", "fantasy", "military", "romance"],
+        "year": 2005
+    },
+    {
+        "id": 388,
+        "title": "Gunslinger Girl: Il Teatrino",
+        "genres": ["action", "drama", "scifi", "thriller"],
+        "year": 2008
+    },
+    {
+        "id": 389,
+        "title": "Gunslinger Stratos",
+        "genres": ["action", "comedy", "fantasy", "school"],
+        "year": 2011
+    },
+    {
+        "id": 390,
+        "title": "Guilty Crown",
+        "genres": ["action", "drama", "mecha", "scifi", "supernatural"],
+        "year": 2011
+    },
+    {
+        "id": 391,
+        "title": "Gundam Build Fighters",
+        "genres": ["action", "mecha", "scifi"],
+        "year": 2013
+    },
+    {
+        "id": 392,
+        "title": "Gundam Build Fighters Try",
+        "genres": ["action", "mecha", "scifi", "sports"],
+        "year": 2014
+    },
+    {
+        "id": 393,
+        "title": "Gundam: Iron-Blooded Orphans",
+        "genres": ["action", "mecha", "military", "scifi"],
+        "year": 2015
+    },
+    {
+        "id": 394,
+        "title": "Gundam: The Witch from Mercury",
+        "genres": ["action", "mecha", "scifi"],
+        "year": 2022
+    },
+    {
+        "id": 395,
+        "title": "Gundam: The Witch from Mercury Prologue",
+        "genres": ["action", "mecha", "scifi"],
+        "year": 2022
+    },
+    {
+        "id": 396,
+        "title": "Gundam: Reconguista in G",
+        "genres": ["action", "mecha", "scifi"],
+        "year": 2014
+    },
+    {
+        "id": 397,
+        "title": "Gundam SEED",
+        "genres": ["action", "mecha", "military", "scifi", "romance"],
+        "year": 2002
+    },
+    {
+        "id": 398,
+        "title": "Gundam SEED Destiny",
+        "genres": ["action", "mecha", "military", "romance", "scifi"],
+        "year": 2004
+    },
+    {
+        "id": 399,
+        "title": "Gundam Unicorn RE:0096",
+        "genres": ["action", "mecha", "scifi"],
+        "year": 2018
+    },
+    {
+        "id": 400,
+        "title": "Gundam: Thunderbolt",
+        "genres": ["action", "mecha", "military", "scifi"],
+        "year": 2015
+    },
+    {
+        "id": 401,
+        "title": "Gunjo no Magmel",
+        "genres": ["adventure", "fantasy", "scifi"],
+        "year": 2019
+    },
+    {
+        "id": 402,
+        "title": "Gurazeni",
+        "genres": ["comedy", "drama", "sports"],
+        "year": 2018
+    },
+    {
+        "id": 403,
+        "title": "Gurren Lagann",
+        "genres": ["action", "adventure", "mecha", "scifi"],
+        "year": 2007
+    },
+    {
+        "id": 404,
+        "title": "Hai to Gensou no Grimoire",
+        "genres": ["action", "fantasy", "magic", "school", "supernatural"],
+        "year": 2017
+    },
+    {
+        "id": 405,
+        "title": "Haiyore! Nyaruko-san",
+        "genres": ["comedy", "drama", "fantasy", "romance", "school", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 406,
+        "title": "Haiyore! Nyaruko-san W",
+        "genres": ["comedy", "fantasy", "romance", "school", "supernatural"],
+        "year": 2015
+    },
+    {
+        "id": 407,
+        "title": "Hakata Tonkotsu Ramens",
+        "genres": ["comedy", "drama", "mystery", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 408,
+        "title": "Hakata Tonkotsu Ramens",
+        "genres": ["comedy", "drama", "mystery", "sliceoflife"],
+        "year": 2017
+    },
+    {
+        "id": 409,
+        "title": "Hakumei to Mikochi",
+        "genres": ["comedy", "drama", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 410,
+        "title": "Half & Half",
+        "genres": ["drama", "romance", "school", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 411,
+        "title": "Hamatora",
+        "genres": ["action", "mystery", "supernatural"],
+        "year": 2014
+    },
+    {
+        "id": 412,
+        "title": "Hanasaku Iroha",
+        "genres": ["drama", "sliceoflife"],
+        "year": 2011
+    },
+    {
+        "id": 413,
+        "title": "Hanayaka Nari, Waga Kashima",
+        "genres": ["comedy", "drama", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 414,
+        "title": "Hanayaka Nari, Waga Kashima",
+        "genres": ["comedy", "drama", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 415,
+        "title": "Hanasaku Iroha",
+        "genres": ["drama", "sliceoflife"],
+        "year": 2011
+    },
+    {
+        "id": 416,
+        "title": "Hanazakari no Kimitachi e",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2007
+    },
+    {
+        "id": 417,
+        "title": "Hanayaka Nari, Waga Kashima",
+        "genres": ["comedy", "drama", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 418,
+        "title": "Hanasaku Iroha",
+        "genres": ["drama", "sliceoflife"],
+        "year": 2011
+    },
+    {
+        "id": 419,
+        "title": "Hanayaka Nari, Waga Kashima",
+        "genres": ["comedy", "drama", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 420,
+        "title": "Hanazakari no Kimitachi e",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2007
+    },
+    {
+        "id": 421,
+        "title": "Haruhi Suzumiya",
+        "genres": ["comedy", "drama", "scifi", "sliceoflife", "supernatural"],
+        "year": 2006
+    },
+    {
+        "id": 422,
+        "title": "Harukanaru Toki no Naka de",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2004
+    },
+    {
+        "id": 423,
+        "title": "Haruka Nogizaka's Secret",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2012
+    },
+    {
+        "id": 424,
+        "title": "Harukanaru Toki no Naka de",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2004
+    },
+    {
+        "id": 425,
+        "title": "Harukanaru Toki no Naka de 2",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2005
+    },
+    {
+        "id": 426,
+        "title": "Harukanaru Toki no Naka de 3",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2006
+    },
+    {
+        "id": 427,
+        "title": "Harukanaru Toki no Naka de 4",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2007
+    },
+    {
+        "id": 428,
+        "title": "Harukanaru Toki no Naka de 5",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2008
+    },
+    {
+        "id": 429,
+        "title": "Harukanaru Toki no Naka de 6",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2009
+    },
+    {
+        "id": 430,
+        "title": "Harukanaru Toki no Naka de 7",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2010
+    },
+    {
+        "id": 431,
+        "title": "Harukanaru Toki no Naka de 8",
+        "genres": ["adventure", "drama", "fantasy", "historical", "romance"],
+        "year": 2011
+    },
+    {
+        "id": 432,
+        "title": "Haruka Nogizaka's Secret",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2012
+    },
+    {
+        "id": 433,
+        "title": "Hataraku Maou-sama!",
+        "genres": ["comedy", "fantasy", "sliceoflife", "supernatural"],
+        "year": 2013
+    },
+    {
+        "id": 434,
+        "title": "Hayate the Combat Butler",
+        "genres": ["action", "comedy", "fantasy", "romance", "school", "sliceoflife"],
+        "year": 2007
+    },
+    {
+        "id": 435,
+        "title": "Hayate the Combat Butler 2",
+        "genres": ["action", "comedy", "fantasy", "romance", "school", "sliceoflife"],
+        "year": 2008
+    },
+    {
+        "id": 436,
+        "title": "Hayate the Combat Butler 3",
+        "genres": ["action", "comedy", "fantasy", "romance", "school", "sliceoflife"],
+        "year": 2009
+    },
+    {
+        "id": 437,
+        "title": "Hayate the Combat Butler 4",
+        "genres": ["action", "comedy", "fantasy", "romance", "school", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 438,
+        "title": "Hazure Nari",
+        "genres": ["comedy", "drama", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 439,
+        "title": "Heaven's Design Team",
+        "genres": ["comedy", "fantasy", "sliceoflife"],
+        "year": 2021
+    },
+    {
+        "id": 440,
+        "title": "Heaven's Memo Pad",
+        "genres": ["mystery", "sliceoflife"],
+        "year": 2011
+    },
+    {
+        "id": 441,
+        "title": "Heavy Object",
+        "genres": ["action", "mecha", "military", "scifi"],
+        "year": 2015
+    },
+    {
+        "id": 442,
+        "title": "Helck",
+        "genres": ["action", "adventure", "comedy", "fantasy"],
+        "year": 2023
+    },
+    {
+        "id": 443,
+        "title": "Hello World",
+        "genres": ["drama", "romance", "scifi"],
+        "year": 2019
+    },
+    {
+        "id": 444,
+        "title": "Help! I'm a Fish",
+        "genres": ["comedy", "drama", "sliceoflife"],
+        "year": 2019
+    },
+    {
+        "id": 445,
+        "title": "Hen Zemi",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2020
+    },
+    {
+        "id": 446,
+        "title": "Heroine",
+        "genres": ["comedy", "drama", "romance", "school", "sliceoflife"],
+        "year": 2004
+    },
+    {
+        "id": 447,
+        "title": "Hibike! Euphonium",
+        "genres": ["drama", "music", "school", "sliceoflife"],
+        "year": 2015
+    },
+    {
+        "id": 448,
+        "title": "Hibike! Euphonium 2",
+        "genres": ["drama", "music", "school", "sliceoflife"],
+        "year": 2016
+    },
+    {
+        "id": 449,
+        "title": "Hibike! Euphonium 3",
+        "genres": ["drama", "music", "school", "sliceoflife"],
+        "year": 2018
+    },
+    {
+        "id": 450,
+        "title": "Hibike! Euphonium: Finale",
+        "genres": ["drama", "music", "school", "sliceoflife"],
+        "year": 2019
+    },
+    {
+        "id": 451,
+        "title": "Hidan no Aria",
+        "genres": ["comedy", "fantasy", "school", "supernatural"],
+        "year": 2012
+    },
+    {
+        "id": 452,
+        "title": "Hidamari Sketch",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2007
+    },
+    {
+        "id": 453,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 454,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 455,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 456,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 457,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 458,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 459,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 460,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 461,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 462,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 463,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 464,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 465,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 466,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
+    },
+    {
+        "id": 467,
+        "title": "Hidamari Sketch x 365",
+        "genres": ["comedy", "sliceoflife"],
+        "year": 2010
     }
 ]
