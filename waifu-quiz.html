@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anime Wings Waifu Personality Quiz - Find your perfect match">
+    <title>Anime Wings - Waifu Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'anime-red': '#F62217',
+                        'anime-black': '#0F0F0F',
+                        'anime-pink': '#EC4899',
+                        'anime-purple': '#8B5CF6',
+                    },
+                    fontFamily: {
+                        'anime': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white font-anime text-anime-black">
+    <!-- Universal Glass Header -->
+    <header class="universal-header">
+        <div class="container">
+            <div class="flex">
+                <!-- Logo Section -->
+                <div class="logo-section">
+                    <div class="logo-circle">
+                        <video class="logo-video" autoplay muted loop playsinline>
+                            <source src="video/logo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <a href="index.html" class="logo-text">Anime Wings</a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
+                    <a href="current-watching.html" class="nav-link">Current Watching</a>
+                    <a href="waifu-quiz.html" class="nav-link active">Waifu Quiz</a>
+                    <a href="database.html" class="nav-link">Database</a>
+                </nav>
+                
+                <!-- Mobile Toggle -->
+                <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="mobile-menu">
+            <div class="mobile-nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
+                <a href="current-watching.html" class="nav-link">Current Watching</a>
+                <a href="waifu-quiz.html" class="nav-link active">Waifu Quiz</a>
+                <a href="database.html" class="nav-link">Database</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header -->
+    <header class="bg-white py-6 md:py-8">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-2xl md:text-3xl font-bold mb-3 md:mb-4">
+                Find Your <span class="text-anime-red">Waifu</span> Match
+            </h1>
+            <p class="text-base md:text-lg mb-4 md:mb-6 max-w-2xl mx-auto">
+                Take our <span id="questionCount">16</span>-question personality quiz to find your perfect waifu match
+            </p>
+        </div>
+    </header>
+
+    <!-- Quiz Section -->
+    <section class="py-6 md:py-8 bg-white min-h-screen">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <!-- Start Quiz Container -->
+                <div id="startContainer" class="text-center bg-white p-6 md:p-8">
+                    <h3 class="text-2xl font-bold mb-4">Waifu Personality Quiz</h3>
+                    <p class="text-gray-600 mb-6 max-w-md mx-auto">
+                        Answer <span id="questionCountDesc">16</span> questions about your personality to find your perfect waifu match.
+                    </p>
+                    
+                    <button onclick="startQuiz()" class="btn bg-anime-red hover:bg-red-700 text-white px-8 py-3 rounded-lg text-lg font-medium">
+                        Start Quiz
+                    </button>
+                </div>
+
+                <!-- Quiz Container -->
+                <div id="quizContainer" class="hidden bg-white p-6 md:p-8 mb-8">
+                    <div class="mb-4 md:mb-6">
+                        <div class="flex justify-between items-center mb-3 md:mb-4">
+                            <h3 class="text-lg md:text-xl font-bold">Personality Quiz</h3>
+                            <span class="text-sm text-gray-500">
+                                Question <span id="currentQuestion">1</span> of <span id="totalQuestions">16</span>
+                            </span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div id="progressBar" class="bg-anime-red h-2 rounded-full" style="width: 6.25%"></div>
+                        </div>
+                    </div>
+                    
+                    <div id="questionContainer" class="mb-6 md:mb-8">
+                        <!-- Questions will be inserted here -->
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row justify-between gap-3">
+                        <button id="prevBtn" onclick="previousQuestion()" class="btn bg-gray-300 hover:bg-gray-400 text-gray-700 px-6 py-2 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                            Previous
+                        </button>
+                        <button id="nextBtn" onclick="nextQuestion()" class="btn bg-anime-red hover:bg-red-700 text-white px-6 py-2 rounded-lg">
+                            Next
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Results Container -->
+                <div id="resultsContainer" class="hidden p-6 md:p-8">
+                    <div id="waifuResult">
+                        <!-- Waifu result will be inserted here -->
+                    </div>
+                    
+                    <div class="text-center mt-6 md:mt-8">
+                        <button onclick="retakeQuiz()" class="bg-anime-red hover:bg-red-700 text-white px-6 py-2 rounded-lg">
+                            Retake Quiz
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-anime-black text-white py-4 md:py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-1 text-sm">&copy; 2024 Anime Wings. All rights reserved.</p>
+            <p class="text-gray-400 text-xs">Made with ❤️ for anime lovers</p>
+        </div>
+    </footer>
+
+    <!-- Preload html2canvas with fallback -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="js/performance.js"></script>
+    <script src="js/anime.js"></script>
+    <script src="js/waifu-simple.js"></script>
+    <script src="js/download-simple.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Update question count display on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // This will be updated after the quiz manager loads the questions
+            setTimeout(() => {
+                if (window.quizManager && window.quizManager.questions) {
+                    const count = window.quizManager.questions.length;
+                    document.getElementById('questionCount').textContent = count;
+                    document.getElementById('questionCountDesc').textContent = count;
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

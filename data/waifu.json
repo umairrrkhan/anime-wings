@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Mikasa Ackerman",
+        "anime": "Attack on Titan",
+        "personality": "tsundere",
+        "traits": ["protective", "loyal", "strong", "quiet"],
+        "description": "A skilled fighter who is fiercely protective of those she cares about.",
+        "image": "https://images.unsplash.com/photo-1494790108755-2616b332c1cd?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 2,
+        "name": "Hinata Hyuga",
+        "anime": "Naruto",
+        "personality": "deredere",
+        "traits": ["shy", "kind", "determined", "gentle"],
+        "description": "A gentle soul who grows stronger through her unwavering determination.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 3,
+        "name": "Asuna Yuuki",
+        "anime": "Sword Art Online",
+        "personality": "deredere",
+        "traits": ["elegant", "strong", "caring", "leader"],
+        "description": "A graceful and skilled fighter with a compassionate heart.",
+        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 4,
+        "name": "Rem",
+        "anime": "Re:Zero",
+        "personality": "deredere",
+        "traits": ["devoted", "strong", "humble", "protective"],
+        "description": "Unwaveringly devoted to those she loves with incredible strength.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 5,
+        "name": "Taiga Aisaka",
+        "anime": "Toradora!",
+        "personality": "tsundere",
+        "traits": ["fierce", "caring", "independent", "vulnerable"],
+        "description": "The 'Palmtop Tiger' with a fierce exterior hiding a caring heart.",
+        "image": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 6,
+        "name": "Mai Sakurajima",
+        "anime": "Bunny Girl Senpai",
+        "personality": "kuudere",
+        "traits": ["confident", "mature", "intelligent", "caring"],
+        "description": "A mature and confident actress with a thoughtful personality.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 7,
+        "name": "Zero Two",
+        "anime": "Darling in the Franxx",
+        "personality": "tsundere",
+        "traits": ["rebellious", "loyal", "passionate", "mysterious"],
+        "description": "A mysterious and passionate partner with a rebellious spirit.",
+        "image": "https://images.unsplash.com/photo-1521319328232-4c9c0b8b7b9c?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 8,
+        "name": "Shinobu Oshino",
+        "anime": "Monogatari Series",
+        "personality": "loli",
+        "traits": ["wise", "playful", "mysterious", "ancient"],
+        "description": "An ancient vampire in the form of a child with surprising wisdom.",
+        "image": "https://images.unsplash.com/photo-1499996860823-5214a65299fe?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 9,
+        "name": "Rias Gremory",
+        "anime": "High School DxD",
+        "personality": "deredere",
+        "traits": ["noble", "confident", "caring", "leader"],
+        "description": "A noble devil with a confident and caring leadership style.",
+        "image": "https://images.unsplash.com/photo-1521319328232-4c9c0b8b7b9c?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 10,
+        "name": "Yor Forger",
+        "anime": "Spy x Family",
+        "personality": "kuudere",
+        "traits": ["strong", "caring", "clumsy", "protective"],
+        "description": "A deadly assassin who is surprisingly caring and clumsy in daily life.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=500&auto=format&fit=crop"
+    }
+]

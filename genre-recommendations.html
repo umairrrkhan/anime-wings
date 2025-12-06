@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anime Wings Genre-Based Recommendations">
+    <title>Anime Wings - Genre Recommendations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'anime-red': '#F62217',
+                        'anime-black': '#0F0F0F',
+                        'anime-pink': '#EC4899',
+                        'anime-purple': '#8B5CF6',
+                    },
+                    fontFamily: {
+                        'anime': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white font-anime text-anime-black">
+    <!-- Universal Glass Header -->
+    <header class="universal-header">
+        <div class="container">
+            <div class="flex">
+                <!-- Logo Section -->
+                <div class="logo-section">
+                    <div class="logo-circle">
+                        <video class="logo-video" autoplay muted loop playsinline>
+                            <source src="video/logo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <a href="index.html" class="logo-text">Anime Wings</a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="genre-recommendations.html" class="nav-link active">Genre Recommendations</a>
+                    <a href="current-watching.html" class="nav-link">Current Watching</a>
+                    <a href="waifu-quiz.html" class="nav-link">Waifu Quiz</a>
+                    <a href="database.html" class="nav-link">Database</a>
+                </nav>
+                
+                <!-- Mobile Toggle -->
+                <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="mobile-menu">
+            <div class="mobile-nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="genre-recommendations.html" class="nav-link active">Genre Recommendations</a>
+                <a href="current-watching.html" class="nav-link">Current Watching</a>
+                <a href="waifu-quiz.html" class="nav-link">Waifu Quiz</a>
+                <a href="database.html" class="nav-link">Database</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Genre Recommendations Content -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold text-center mb-8">Anime Wings Genre Recommendations</h1>
+            
+            <!-- Genre Selection Section -->
+            <div class="max-w-4xl mx-auto mb-12">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-semibold mb-6 text-center">Select Your Favorite Genres</h2>
+                    
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="action">
+                            <span>Action</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="adventure">
+                            <span>Adventure</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="comedy">
+                            <span>Comedy</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="drama">
+                            <span>Drama</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="sliceoflife">
+                            <span>Slice of Life</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="romance">
+                            <span>Romance</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="scifi">
+                            <span>Sci-Fi</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="fantasy">
+                            <span>Fantasy</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="horror">
+                            <span>Horror</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="mystery">
+                            <span>Mystery</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="thriller">
+                            <span>Thriller</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="psychological">
+                            <span>Psychological</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="supernatural">
+                            <span>Supernatural</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="mecha">
+                            <span>Mecha</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="sports">
+                            <span>Sports</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="harem">
+                            <span>Harem</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="reverseharem">
+                            <span>Reverse Harem</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="isekai">
+                            <span>Isekai</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="magicalgirl">
+                            <span>Magical Girl</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="cyberpunk">
+                            <span>Cyberpunk</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="steampunk">
+                            <span>Steampunk</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="postapocalyptic">
+                            <span>Post-Apocalyptic</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="historical">
+                            <span>Historical</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="military">
+                            <span>Military</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="martialarts">
+                            <span>Martial Arts</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="music">
+                            <span>Music</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="idol">
+                            <span>Idol</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="cooking">
+                            <span>Cooking</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="medical">
+                            <span>Medical</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="vampire">
+                            <span>Vampire</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="zombie">
+                            <span>Zombie</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="survival">
+                            <span>Survival</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="samurai">
+                            <span>Samurai</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="spaceopera">
+                            <span>Space Opera</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="yaoi">
+                            <span>Yaoi</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="yuri">
+                            <span>Yuri</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="ecchi">
+                            <span>Ecchi</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="hentai">
+                            <span>Hentai</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="shonen">
+                            <span>Shonen</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="shojo">
+                            <span>Shojo</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="seinen">
+                            <span>Seinen</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="josei">
+                            <span>Josei</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="kodomo">
+                            <span>Kodomomuke</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="iyashikei">
+                            <span>Iyashikei</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="cgdct">
+                            <span>CGDCT</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="parody">
+                            <span>Parody</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="tragedy">
+                            <span>Tragedy</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="kids">
+                            <span>Kids</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="detective">
+                            <span>Detective</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="school">
+                            <span>School</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="workplace">
+                            <span>Workplace</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="gaming">
+                            <span>Gaming</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="racing">
+                            <span>Racing</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="police">
+                            <span>Police</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="legal">
+                            <span>Legal</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="demons">
+                            <span>Demons</span>
+                        </label>
+                        <label class="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 rounded">
+                            <input type="checkbox" class="genre-checkbox w-4 h-4 text-anime-red" value="mythology">
+                            <span>Mythology</span>
+                        </label>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button id="findRecommendationsBtn" onclick="findRecommendations()" class="bg-anime-red hover:bg-red-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            Get Recommendations
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Recommendations Table Section -->
+            <div class="max-w-6xl mx-auto">
+                <div id="recommendationsSection" class="bg-white rounded-lg shadow-lg p-6 hidden">
+                    <h2 class="text-2xl font-semibold mb-6 text-center">Your Anime Recommendations</h2>
+                    
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full table-auto">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Title</th>
+                                    <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Creator</th>
+                                    <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Genre</th>
+                                    <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Genre Match</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recommendedAnimeTable" class="divide-y divide-gray-200">
+                                <!-- Recommendations will be inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="mt-6 text-center">
+                        <button onclick="resetGenreSelection()" class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+                            Reset Selection
+                        </button>
+                    </div>
+                </div>
+                
+
+                
+                <div id="noAnimeFoundMessage" class="bg-red-50 border-l-4 border-red-400 p-4 rounded hidden">
+                    <p class="text-red-700">Sorry, no anime found for your selection. Please try different genres.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/genre-recommendations.js"></script>
+    <script>
+        // Set active nav link based on current page
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === currentPath.split('/').pop()) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
