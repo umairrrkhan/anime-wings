@@ -3,130 +3,70 @@
         "id": 1,
         "title": "Attack on Titan",
         "genres": ["action", "drama"],
-        "creator": "Hajime Isayama",
-        "rating": 9.0,
-        "episodes": 87,
         "year": 2013,
-        "status": "completed",
-        "description": "Humanity fights for survival against giant humanoid Titans.",
-        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": false
+        "description": "Humanity fights for survival against giant humanoid Titans."
     },
     {
         "id": 2,
         "title": "Your Name",
         "genres": ["romance", "fantasy", "drama"],
-        "creator": "Makoto Shinkai",
-        "rating": 8.4,
-        "episodes": 1,
         "year": 2016,
-        "status": "completed",
-        "description": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies.",
-        "image": "https://images.unsplash.com/photo-1535016120720-40c646be5580?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": true
+        "description": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies."
     },
     {
         "id": 3,
         "title": "Death Note",
         "genres": ["action", "thriller", "psychological"],
-        "creator": "Tsugumi Ohba",
-        "rating": 9.0,
-        "episodes": 37,
         "year": 2006,
-        "status": "completed",
-        "description": "A high school student discovers a supernatural notebook that allows him to kill anyone by writing their name.",
-        "image": "https://images.unsplash.com/photo-1596727147705-61a532a659bd?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": false
+        "description": "A high school student discovers a supernatural notebook that allows him to kill anyone by writing their name."
     },
     {
         "id": 4,
         "title": "Toradora!",
         "genres": ["romance", "comedy", "drama"],
-        "creator": "Yuyuko Takemiya",
-        "rating": 8.1,
-        "episodes": 25,
         "year": 2008,
-        "status": "completed",
-        "description": "Two high school students with contrasting personalities help each other pursue their respective crushes.",
-        "image": "https://images.unsplash.com/photo-1516172542501-86d6f1c0e7b5?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": true
+        "description": "Two high school students with contrasting personalities help each other pursue their respective crushes."
     },
     {
         "id": 5,
         "title": "One Punch Man",
         "genres": ["comedy", "action", "parody"],
-        "creator": "ONE",
-        "rating": 8.8,
-        "episodes": 24,
         "year": 2015,
-        "status": "ongoing",
-        "description": "A hero who can defeat any enemy with a single punch grows bored with his lack of challenge.",
-        "image": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": false
+        "description": "A hero who can defeat any enemy with a single punch grows bored with his lack of challenge."
     },
     {
         "id": 6,
         "title": "Nichijou",
         "genres": ["comedy", "slice of life"],
-        "creator": "Keiichi Arawi",
-        "rating": 8.4,
-        "episodes": 26,
         "year": 2011,
-        "status": "completed",
-        "description": "The extraordinary lives of ordinary high school students and their strange adventures.",
-        "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": false
+        "description": "The extraordinary lives of ordinary high school students and their strange adventures."
     },
     {
         "id": 7,
         "title": "Spirited Away",
         "genres": ["fantasy", "adventure", "drama"],
-        "creator": "Hayao Miyazaki",
-        "rating": 8.6,
-        "episodes": 1,
         "year": 2001,
-        "status": "completed",
-        "description": "A young girl becomes trapped in a mysterious world of spirits and gods.",
-        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": false
+        "description": "A young girl becomes trapped in a mysterious world of spirits and gods."
     },
     {
         "id": 8,
         "title": "Made in Abyss",
         "genres": ["fantasy", "adventure", "mystery"],
-        "creator": "Akihito Tsukushi",
-        "rating": 8.8,
-        "episodes": 31,
         "year": 2017,
-        "status": "ongoing",
-        "description": "A young girl and her robot companion explore a dangerous, mysterious chasm filled with ancient relics.",
-        "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": true
+        "description": "A young girl and her robot companion explore a dangerous, mysterious chasm filled with ancient relics."
     },
     {
         "id": 9,
         "title": "My Hero Academia",
         "genres": ["action", "superhero", "school"],
-        "creator": "Kohei Horikoshi",
-        "rating": 8.5,
-        "episodes": 138,
         "year": 2016,
-        "status": "ongoing",
-        "description": "A boy born without superpowers in a world where they are the norm strives to become a hero.",
-        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": false
+        "description": "A boy born without superpowers in a world where they are the norm strives to become a hero."
     },
     {
         "id": 10,
         "title": "Kaguya-sama: Love is War",
         "genres": ["romance", "comedy", "psychological"],
-        "creator": "Aka Akasaka",
-        "rating": 8.4,
-        "episodes": 37,
         "year": 2019,
-        "status": "ongoing",
-        "description": "Two brilliant high school students engage in elaborate schemes to make the other confess their love first.",
-        "image": "https://images.unsplash.com/photo-1535016120720-40c646be5580?q=80&w=500&auto=format&fit=crop",
-        "currentlyWatching": false
+        "description": "Two brilliant high school students engage in elaborate schemes to make the other confess their love first."
     }
 ]

@@ -348,70 +348,75 @@
     <!-- Footer -->
     <footer class="bg-gradient-to-r from-gray-900 to-black text-white pt-16 pb-8">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-                <!-- Logo and Description -->
-                <div class="col-span-1 md:col-span-2">
-                    <div class="flex items-center space-x-2 mb-4">
-                        <div class="w-10 h-10 bg-anime-red rounded-full flex items-center justify-center">
-                            <span class="text-white font-bold">A</span>
-                        </div>
-                        <span class="text-2xl font-bold">AnimeVerse</span>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+                <!-- Logo Section -->
+                <div class="col-span-1 md:col-span-1 flex flex-col items-center md:items-start">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <video autoplay muted loop class="w-16 h-16 rounded-full shadow-lg">
+                            <source src="video/logo.mp4" type="video/mp4">
+                        </video>
+                        <span class="text-3xl font-bold text-white">Anime Wings</span>
                     </div>
-                    <p class="text-gray-400 mb-6 max-w-md" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">
-                        Your ultimate destination for anime and manga. Discover, track, and explore the world of Japanese animation.
+                    <p class="text-white text-sm text-center md:text-left">
+                        Your gateway to world of anime
                     </p>
-                    <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-anime-red transition-colors">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-anime-red transition-colors">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-anime-red transition-colors">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-anime-red transition-colors">
-                            <i class="fab fa-discord"></i>
-                        </a>
-                    </div>
                 </div>
                 
                 <!-- Quick Links -->
-                <div>
-                    <h3 class="text-lg font-semibold mb-4 text-anime-red" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
-                        <li><a href="anime.html" class="text-gray-400 hover:text-white transition-colors">Anime</a></li>
-                        <li><a href="manga.html" class="text-gray-400 hover:text-white transition-colors">Manga</a></li>
-                        <li><a href="waifu-quiz.html" class="text-gray-400 hover:text-white transition-colors">Waifu Quiz</a></li>
-                        <li><a href="current-watching.html" class="text-gray-400 hover:text-white transition-colors">Current Watching</a></li>
-                        <li><a href="database.html" class="text-gray-400 hover:text-white transition-colors">Database</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Contact -->
-                <div>
-                    <h3 class="text-lg font-semibold mb-4 text-anime-red" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">Contact</h3>
-                    <ul class="space-y-2">
-                        <li class="text-gray-400">
-                            <i class="fas fa-envelope mr-2"></i>
-                            <a href="mailto:contact@allwingsai.com" class="hover:text-white transition-colors">contact@allwingsai.com</a>
-                        </li>
-                        <li class="text-gray-400">
-                            <i class="fas fa-clock mr-2"></i>
-                            Response within 24 hours
-                        </li>
-                    </ul>
+                <div class="col-span-1 md:col-span-2">
+                    <h3 class="text-xl font-semibold mb-6 text-anime-red" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">Quick Links</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div>
+                            <ul class="space-y-3">
+                                <li class="text-white">
+                                    <a href="index.html" class="hover:text-anime-red transition-colors duration-300 flex items-center">
+                                        <i class="fas fa-home mr-2 text-anime-red"></i> Home
+                                    </a>
+                                </li>
+                                <li class="text-white">
+                                    <a href="index.html#anime" class="hover:text-anime-red transition-colors duration-300 flex items-center">
+                                        <i class="fas fa-play mr-2 text-anime-red"></i> Anime
+                                    </a>
+                                </li>
+                                <li class="text-white">
+                                    <a href="index.html#manga" class="hover:text-anime-red transition-colors duration-300 flex items-center">
+                                        <i class="fas fa-book mr-2 text-anime-red"></i> Manga
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="space-y-3">
+                                <li class="text-white">
+                                    <a href="waifu-quiz.html" class="hover:text-anime-red transition-colors duration-300 flex items-center">
+                                        <i class="fas fa-heart mr-2 text-anime-red"></i> Waifu Quiz
+                                    </a>
+                                </li>
+                                <li class="text-white">
+                                    <a href="current-watching.html" class="hover:text-anime-red transition-colors duration-300 flex items-center">
+                                        <i class="fas fa-tv mr-2 text-anime-red"></i> Current Watching
+                                    </a>
+                                </li>
+                                <li class="text-white">
+                                    <a href="database.html" class="hover:text-anime-red transition-colors duration-300 flex items-center">
+                                        <i class="fas fa-database mr-2 text-anime-red"></i> Database
+                                    </a>
+                                </li>
+                                <li class="text-white">
+                                    <a href="contact.html" class="hover:text-anime-red transition-colors duration-300 flex items-center">
+                                        <i class="fas fa-envelope mr-2 text-anime-red"></i> Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <!-- Copyright -->
-            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 text-sm mb-4 md:mb-0">
-                    &copy; 2024 AnimeVerse. All rights reserved.
-                </p>
-                <p class="text-gray-400 text-sm" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">
-                    Made with ❤️ by <a href="#" class="text-anime-red hover:underline">AllWings AI Team</a>
+            <div class="border-t border-gray-800 pt-8 flex justify-center items-center">
+                <p class="text-white text-sm">
+                    &copy; 2025 Anime Wings. All rights reserved.
                 </p>
             </div>
         </div>
