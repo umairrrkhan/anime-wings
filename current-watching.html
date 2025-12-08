@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Anime Wings Current Watching">
-    <title>Anime Wings - Current Watching</title>
+    <meta name="description" content="Track your currently watching anime series with Anime Wings. Keep up with your favorite shows, monitor progress, and discover new episodes.">
+    <meta name="keywords" content="currently watching anime, anime tracker, anime progress, watch list, anime episodes, anime series tracking">
+    <meta name="author" content="Anime Wings">
+    <meta name="robots" content="index, follow">
+    <title>Anime Wings - Currently Watching | Track Your Anime Progress</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Anime Wings - Currently Watching | Track Your Anime Progress">
+    <meta property="og:description" content="Track your currently watching anime series with Anime Wings. Keep up with your favorite shows and monitor progress.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animewings.com/current-watching.html">
+    <meta property="og:image" content="https://animewings.com/images/current-watching-og.jpg">
+    <meta property="og:site_name" content="Anime Wings">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anime Wings - Currently Watching | Track Your Anime Progress">
+    <meta name="twitter:description" content="Track your currently watching anime series with Anime Wings. Keep up with your favorite shows.">
+    <meta name="twitter:image" content="https://animewings.com/images/current-watching-twitter.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://animewings.com/current-watching.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/logo.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +54,7 @@
 </head>
 <body class="bg-white font-anime text-anime-black">
     <!-- Universal Glass Header -->
-    <header class="universal-header">
+    <header class="universal-header" role="banner">
         <div class="container">
             <div class="flex">
                 <!-- Logo Section -->
@@ -45,7 +68,7 @@
                 </div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="nav-links">
+                <nav class="nav-links" role="navigation" aria-label="Main navigation">
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                     <a href="current-watching.html" class="nav-link active">Current Watching</a>
@@ -64,7 +87,7 @@
         
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="mobile-menu">
-            <div class="mobile-nav-links">
+            <div class="mobile-nav-links" role="navigation" aria-label="Mobile navigation">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                 <a href="current-watching.html" class="nav-link active">Current Watching</a>
@@ -75,6 +98,7 @@
     </header>
 
     <!-- Current Watching Content -->
+    <main role="main">
     <section class="py-20">
         <div class="container mx-auto px-4">
             <h1 class="text-4xl font-bold text-center mb-8">Current Watching</h1>
@@ -131,9 +155,18 @@
             </div>
         </div>
     </section>
+    </main>
 
     <script src="js/current-watching.js"></script>
     <script>
+        // Toggle mobile menu
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu) {
+                mobileMenu.classList.toggle('active');
+            }
+        }
+
         // Set active nav link based on current page
         document.addEventListener('DOMContentLoaded', function() {
             const currentPath = window.location.pathname;

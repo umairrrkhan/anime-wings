@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Anime Wings - Get in touch with our team">
-    <title>Anime Wings - Contact</title>
+    <meta name="description" content="Get in touch with the Anime Wings team. Contact us for questions, feedback, or partnerships related to our anime recommendation platform.">
+    <meta name="keywords" content="anime wings contact, contact anime wings, anime support, anime feedback, anime partnership">
+    <meta name="author" content="Anime Wings">
+    <meta name="robots" content="index, follow">
+    <title>Anime Wings - Contact Us | Get in Touch with Our Team</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Anime Wings - Contact Us | Get in Touch with Our Team">
+    <meta property="og:description" content="Get in touch with the Anime Wings team. Contact us for questions, feedback, or partnerships.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animewings.com/contact.html">
+    <meta property="og:image" content="https://animewings.com/images/contact-og.jpg">
+    <meta property="og:site_name" content="Anime Wings">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anime Wings - Contact Us | Get in Touch with Our Team">
+    <meta name="twitter:description" content="Get in touch with the Anime Wings team. Contact us for questions, feedback, or partnerships.">
+    <meta name="twitter:image" content="https://animewings.com/images/contact-twitter.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://animewings.com/contact.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/logo.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +54,7 @@
 </head>
 <body class="bg-white font-anime text-anime-black">
     <!-- Universal Glass Header -->
-    <header class="universal-header">
+    <header class="universal-header" role="banner">
         <div class="container">
             <div class="flex">
                 <!-- Logo Section -->
@@ -45,7 +68,7 @@
                 </div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="nav-links">
+                <nav class="nav-links" role="navigation" aria-label="Main navigation">
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                     <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -65,7 +88,7 @@
         
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="mobile-menu">
-            <div class="mobile-nav-links">
+            <div class="mobile-nav-links" role="navigation" aria-label="Mobile navigation">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                 <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -77,6 +100,7 @@
     </header>
 
     <!-- Contact Section -->
+    <main role="main">
     <section class="py-20">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
@@ -135,8 +159,9 @@
             });
         });
     </script>
+    </main>
 <!-- Simple Footer -->
-    <footer class="bg-gray-50 py-8 mt-16">
+    <footer class="bg-gray-50 py-8 mt-16" role="contentinfo">
         <div class="container mx-auto px-4 text-center">
             <p class="text-gray-600 text-sm">
                 © 2025 Anime Wings. All rights reserved.

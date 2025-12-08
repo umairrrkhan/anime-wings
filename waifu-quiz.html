@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Anime Wings Waifu Personality Quiz - Find your perfect match">
-    <title>Anime Wings - Waifu Quiz</title>
+    <meta name="description" content="Take our fun waifu quiz to find your perfect anime character match! Discover which waifu personality type matches yours based on your preferences.">
+    <meta name="keywords" content="waifu quiz, anime quiz, waifu match, anime personality test, anime character quiz, waifu finder">
+    <meta name="author" content="Anime Wings">
+    <meta name="robots" content="index, follow">
+    <title>Anime Wings - Waifu Quiz | Find Your Perfect Anime Character Match</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Anime Wings - Waifu Quiz | Find Your Perfect Anime Character Match">
+    <meta property="og:description" content="Take our fun waifu quiz to find your perfect anime character match! Discover which waifu personality type matches yours.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animewings.com/waifu-quiz.html">
+    <meta property="og:image" content="https://animewings.com/images/waifu-quiz-og.jpg">
+    <meta property="og:site_name" content="Anime Wings">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anime Wings - Waifu Quiz | Find Your Perfect Anime Character Match">
+    <meta name="twitter:description" content="Take our fun waifu quiz to find your perfect anime character match!">
+    <meta name="twitter:image" content="https://animewings.com/images/waifu-quiz-twitter.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://animewings.com/waifu-quiz.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/logo.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +54,7 @@
 </head>
 <body class="bg-white font-anime text-anime-black">
     <!-- Universal Glass Header -->
-    <header class="universal-header">
+    <header class="universal-header" role="banner">
         <div class="container">
             <div class="flex">
                 <!-- Logo Section -->
@@ -45,7 +68,7 @@
                 </div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="nav-links">
+                <nav class="nav-links" role="navigation" aria-label="Main navigation">
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                     <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -64,7 +87,7 @@
         
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="mobile-menu">
-            <div class="mobile-nav-links">
+            <div class="mobile-nav-links" role="navigation" aria-label="Mobile navigation">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                 <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -75,7 +98,7 @@
     </header>
 
     <!-- Header -->
-    <header class="bg-white py-6 md:py-8">
+    <header class="bg-white py-6 md:py-8" role="banner">
         <div class="container mx-auto px-4 text-center">
             <h1 class="text-2xl md:text-3xl font-bold mb-3 md:mb-4">
                 Find Your <span class="text-anime-red">Waifu</span> Match
@@ -87,6 +110,7 @@
     </header>
 
     <!-- Quiz Section -->
+    <main role="main">
     <section class="py-6 md:py-8 bg-white min-h-screen">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
@@ -146,8 +170,9 @@
         </div>
     </section>
 
+        </main>
     <!-- Footer -->
-    <footer class="bg-anime-black text-white py-4 md:py-6">
+    <footer class="bg-anime-black text-white py-4 md:py-6" role="contentinfo">
         <div class="container mx-auto px-4 text-center">
             <p class="mb-1 text-sm">&copy; 2024 Anime Wings. All rights reserved.</p>
             <p class="text-gray-400 text-xs">Made with ❤️ for anime lovers</p>
@@ -162,8 +187,6 @@
     <script src="js/waifu-simple.js"></script>
     <script src="js/download-simple.js"></script>
     <script src="js/questions.js"></script>
-    <script src="js/main.js"></script>
-    
     <script>
         // Update question count display on page load
         document.addEventListener('DOMContentLoaded', function() {
@@ -177,5 +200,6 @@
             }, 1000);
         });
     </script>
+    <script src="js/main.js"></script>
 </body>
 </html>

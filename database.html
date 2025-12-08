@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Anime Wings Database - View anime and waifu character details">
-    <title>Anime Wings - Database</title>
+    <meta name="description" content="Explore our comprehensive anime database with detailed information about your favorite anime series and characters. Filter by genres, years, and more.">
+    <meta name="keywords" content="anime database, anime list, anime catalog, anime series, anime characters, anime genres, anime search">
+    <meta name="author" content="Anime Wings">
+    <meta name="robots" content="index, follow">
+    <title>Anime Wings - Anime Database | Complete Anime Series & Characters Catalog</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Anime Wings - Anime Database | Complete Anime Series & Characters Catalog">
+    <meta property="og:description" content="Explore our comprehensive anime database with detailed information about your favorite anime series and characters.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animewings.com/database.html">
+    <meta property="og:image" content="https://animewings.com/images/anime-database-og.jpg">
+    <meta property="og:site_name" content="Anime Wings">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anime Wings - Anime Database | Complete Anime Series & Characters Catalog">
+    <meta name="twitter:description" content="Explore our comprehensive anime database with detailed information about your favorite anime series and characters.">
+    <meta name="twitter:image" content="https://animewings.com/images/anime-database-twitter.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://animewings.com/database.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/logo.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +77,7 @@
 </head>
 <body class="bg-white font-anime text-anime-black">
     <!-- Universal Glass Header -->
-    <header class="universal-header">
+    <header class="universal-header" role="banner">
         <div class="container">
             <div class="flex">
                 <!-- Logo Section -->
@@ -68,7 +91,7 @@
                 </div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="nav-links">
+                <nav class="nav-links" role="navigation" aria-label="Main navigation">
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                     <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -87,7 +110,7 @@
         
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="mobile-menu">
-            <div class="mobile-nav-links">
+            <div class="mobile-nav-links" role="navigation" aria-label="Mobile navigation">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                 <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -98,20 +121,14 @@
     </header>
 
     <!-- Database Content -->
+    <main role="main">
     <section class="py-20">
         <div class="container mx-auto px-4">
             <h1 class="text-4xl font-bold text-center mb-8">Anime Wings Database</h1>
             
-            <!-- Tab Navigation -->
-            <div class="flex justify-center mb-8">
-                <div class="inline-flex rounded-lg border border-gray-200 bg-white p-1">
-                    <button id="animeTabBtn" class="px-6 py-2 text-sm font-medium rounded-md bg-anime-red text-white transition-all" onclick="showAnimeTab()">
-                        Anime Database
-                    </button>
-                    <button id="waifuTabBtn" class="px-6 py-2 text-sm font-medium rounded-md text-gray-700 hover:text-gray-900 transition-all" onclick="showWaifuTab()">
-                        Waifu Database
-                    </button>
-                </div>
+            <!-- Database Title -->
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-bold text-anime-red">Anime Database</h2>
             </div>
             
             <!-- Search Bar -->
@@ -138,7 +155,7 @@
 
             
             <!-- Anime Table -->
-            <div id="anime-table" class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
                 <div class="bg-gradient-to-r from-anime-red to-red-600 px-6 py-4">
                     <h2 class="text-xl font-bold text-white">Anime Database</h2>
                 </div>
@@ -159,33 +176,11 @@
                 </div>
             </div>
             
-            <!-- Waifu Table -->
-            <div id="waifu-table" class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hidden">
-                <div class="bg-gradient-to-r from-anime-pink to-pink-600 px-6 py-4">
-                    <h2 class="text-xl font-bold text-white">Waifu Database</h2>
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="w-full">
-                        <thead class="table-header">
-                            <tr>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Anime</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Personality</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Traits</th>
-                            </tr>
-                        </thead>
-                        <tbody id="waifuTableBody" class="bg-white divide-y divide-gray-200">
-                            <!-- Table rows will be inserted here -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            
             <!-- Contact for More Data -->
             <div class="mt-12 bg-gray-50 rounded-lg p-8 text-center max-w-2xl mx-auto">
                 <h3 class="text-xl font-semibold mb-4">Need More Data?</h3>
                 <p class="text-gray-600 mb-6">
-                    Our database is limited to 50 entries each. For access to our complete database with thousands of entries, please contact us.
+                    Our anime database is limited to 50 entries. For access to our complete database with thousands of anime entries, please contact us.
                 </p>
                 <a href="mailto:allwingsai@gmail.com" class="inline-flex items-center justify-center bg-anime-red hover:bg-red-600 text-white font-medium py-3 px-6 rounded-lg transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -196,6 +191,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <script src="js/database.js"></script>
     <script>

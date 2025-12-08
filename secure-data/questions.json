@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "question": "How do you react when someone compliments you?",
+        "options": [
+            "Get embarrassed but secretly happy",
+            "Thank them sincerely",
+            "Nod and move on",
+            "Get excited and ask for more compliments"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "What's your ideal weekend activity?",
+        "options": [
+            "Training or working on a project",
+            "Spending time with loved ones",
+            "Reading or watching shows alone",
+            "Playing games or having fun"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "How do you handle conflicts?",
+        "options": [
+            "Face them head-on",
+            "Try to understand both sides",
+            "Avoid confrontation",
+            "Make light of the situation"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What quality do you value most in others?",
+        "options": [
+            "Strength and determination",
+            "Kindness and compassion",
+            "Intelligence and wisdom",
+            "Playfulness and humor"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "How would your friends describe you?",
+        "options": [
+            "Fierce but caring",
+            "Warm and dependable",
+            "Calm and mysterious",
+            "Energetic and fun"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "What's your approach to new challenges?",
+        "options": [
+            "Take charge and lead",
+            "Collaborate with others",
+            "Analyze and plan carefully",
+            "Jump in and learn as you go"
+        ]
+    },
+    {
+        "id": 7,
+        "question": "How do you express affection?",
+        "options": [
+            "Through actions more than words",
+            "Openly and verbally",
+            "Subtly and thoughtfully",
+            "Through playful teasing"
+        ]
+    },
+    {
+        "id": 8,
+        "question": "What's your ideal date setting?",
+        "options": [
+            "An adventure or competition",
+            "A quiet, romantic dinner",
+            "A museum or library",
+            "An amusement park or arcade"
+        ]
+    },
+    {
+        "id": 9,
+        "question": "How do you deal with stress?",
+        "options": [
+            "Channel it into productivity",
+            "Talk it out with someone",
+            "Take time to think alone",
+            "Find ways to have fun and relax"
+        ]
+    },
+    {
+        "id": 10,
+        "question": "What motivates you most?",
+        "options": [
+            "Personal growth and strength",
+            "Helping others",
+            "Knowledge and understanding",
+            "Happiness and enjoyment"
+        ]
+    },
+    {
+        "id": 11,
+        "question": "How do you prefer to communicate?",
+        "options": [
+            "Directly and honestly",
+            "Warmly and openly",
+            "Thoughtfully and precisely",
+            "Casually and humorously"
+        ]
+    },
+    {
+        "id": 12,
+        "question": "What's your biggest weakness?",
+        "options": [
+            "Being too hard on myself",
+            "Trusting too easily",
+            "Being too reserved",
+            "Taking things too lightly"
+        ]
+    },
+    {
+        "id": 13,
+        "question": "How do you react to surprises?",
+        "options": [
+            "Get defensive at first",
+            "Get excited and curious",
+            "Stay calm and observe",
+            "Get enthusiastic immediately"
+        ]
+    },
+    {
+        "id": 14,
+        "question": "What role do you take in groups?",
+        "options": [
+            "The leader or protector",
+            "The supporter or peacemaker",
+            "The observer or strategist",
+            "The entertainer or energizer"
+        ]
+    },
+    {
+        "id": 15,
+        "question": "How do you show someone you care?",
+        "options": [
+            "By being protective",
+            "Through kind words and actions",
+            "By being reliable and present",
+            "Through fun activities and jokes"
+        ]
+    },
+    {
+        "id": 16,
+        "question": "What's your life philosophy?",
+        "options": [
+            "Strength comes from overcoming challenges",
+            "Kindness makes the world better",
+            "Knowledge is the ultimate power",
+            "Life should be enjoyed to the fullest"
+        ]
+    }
+]

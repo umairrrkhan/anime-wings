@@ -64,7 +64,7 @@ function initializeMobileMenu() {
     window.toggleMobileMenu = function() {
         const mobileMenu = document.getElementById('mobileMenu');
         if (mobileMenu) {
-            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('active');
         }
     };
 }

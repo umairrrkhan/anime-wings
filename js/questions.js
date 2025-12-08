@@ -1,6 +1,6 @@
 // Configuration: Customize the number of questions in the quiz
 // Change this value to set how many questions to use (1-16)
-const QUIZ_QUESTION_COUNT = 2; // Default: 16 questions
+const QUIZ_QUESTION_COUNT = 16; // Default: 16 questions
 
 class QuizManager {
     constructor() {

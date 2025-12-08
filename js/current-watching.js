@@ -78,7 +78,9 @@ class CurrentWatchingManager {
             suggestionsDiv.innerHTML = filteredAnime.map(anime => `
                 <div onclick="currentManager.selectAnimeFromSuggestions(${anime.id})" class="p-3 hover:bg-gray-100 cursor-pointer border-b last:border-b-0">
                     <div class="flex items-center">
-                        <img src="${anime.image}" alt="${anime.title}" class="w-10 h-10 object-cover rounded mr-3">
+                        <div class="w-10 h-10 bg-anime-red rounded-full mr-3 flex items-center justify-center">
+                            <span class="text-white font-bold text-sm">${anime.title.charAt(0)}</span>
+                        </div>
                         <div class="flex-1">
                             <div class="font-medium">${anime.title}</div>
                             <div class="text-sm text-gray-500">${anime.genres ? anime.genres.join(', ') : anime.genre} • ${anime.year}</div>
@@ -230,15 +232,15 @@ class CurrentWatchingManager {
             // Jaccard similarity = |Intersection| / |Union|
             const jaccardSimilarity = intersection.length / union.length;
             
-            // Convert to percentage and add rating factor (30% weight)
-            const accuracy = Math.round((jaccardSimilarity * 70) + (anime.rating / 10 * 30));
+            // Convert to percentage (using only genre similarity since rating is no longer available)
+            const accuracy = Math.round(jaccardSimilarity * 100);
             
             return {
                 ...anime,
                 accuracy: accuracy,
                 matchingGenres: intersection.length
             };
-        }).filter(anime => anime.accuracy > 43); // Only keep anime with accuracy above 43%
+        }).filter(anime => anime.accuracy > 30); // Only keep anime with accuracy above 30%
         
         // Sort by accuracy (highest first) and return top recommendations
         matchingAnime.sort((a, b) => b.accuracy - a.accuracy);

@@ -3,8 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Anime Wings - Your Ultimate Anime Discovery Platform">
-    <title>Anime Wings - Discover Anime & Find Perfect Waifu</title>
+    <meta name="description" content="Anime Wings - Discover amazing anime, get personalized recommendations, and find your perfect waifu match. Explore our comprehensive anime database and take our fun waifu quiz.">
+    <meta name="keywords" content="anime, anime recommendation, waifu, waifu match, anime database, anime genres, manga, anime characters, anime quiz, waifu quiz, anime discovery">
+    <meta name="author" content="Anime Wings">
+    <meta name="robots" content="index, follow">
+    <title>Anime Wings - Anime Recommendations & Waifu Match | Discover Your Next Favorite Anime</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Anime Wings - Anime Recommendations & Waifu Match">
+    <meta property="og:description" content="Discover amazing anime, get personalized recommendations, and find your perfect waifu match. Explore our comprehensive anime database and take our fun waifu quiz.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animewings.com">
+    <meta property="og:image" content="https://animewings.com/images/og-image.jpg">
+    <meta property="og:site_name" content="Anime Wings">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anime Wings - Anime Recommendations & Waifu Match">
+    <meta name="twitter:description" content="Discover amazing anime, get personalized recommendations, and find your perfect waifu match.">
+    <meta name="twitter:image" content="https://animewings.com/images/twitter-card.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://animewings.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/logo.ico">
+    
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Anime Wings",
+        "url": "https://animewings.com",
+        "description": "Discover amazing anime, get personalized recommendations, and find your perfect waifu match. Explore our comprehensive anime database and take our fun waifu quiz.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://animewings.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Anime Database",
+            "description": "Comprehensive database of anime with recommendations and waifu matching",
+            "numberOfItems": "10",
+            "itemListElement": [
+                {
+                    "@type": "TVSeries",
+                    "name": "Attack on Titan",
+                    "genre": ["action", "drama"],
+                    "datePublished": "2013"
+                },
+                {
+                    "@type": "Movie",
+                    "name": "Your Name",
+                    "genre": ["romance", "fantasy", "drama"],
+                    "datePublished": "2016"
+                },
+                {
+                    "@type": "TVSeries",
+                    "name": "Death Note",
+                    "genre": ["action", "thriller", "psychological"],
+                    "datePublished": "2006"
+                },
+                {
+                    "@type": "TVSeries",
+                    "name": "Toradora!",
+                    "genre": ["romance", "comedy", "drama"],
+                    "datePublished": "2008"
+                },
+                {
+                    "@type": "TVSeries",
+                    "name": "One Punch Man",
+                    "genre": ["comedy", "action", "parody"],
+                    "datePublished": "2015"
+                }
+            ]
+        }
+    }
+    </script>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +117,7 @@
 </head>
 <body class="bg-white font-anime text-anime-black">
     <!-- Universal Glass Header -->
-    <header class="universal-header">
+    <header class="universal-header" role="banner">
         <div class="container">
             <div class="flex">
                 <!-- Logo Section -->
@@ -53,7 +131,7 @@
                 </div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="nav-links">
+                <nav class="nav-links" role="navigation" aria-label="Main navigation">
                     <a href="index.html" class="nav-link active">Home</a>
                     <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                     <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -72,7 +150,7 @@
         
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="mobile-menu">
-            <div class="mobile-nav-links">
+            <div class="mobile-nav-links" role="navigation" aria-label="Mobile navigation">
                 <a href="index.html" class="nav-link active">Home</a>
                 <a href="genre-recommendations.html" class="nav-link">Genre Recommendations</a>
                 <a href="current-watching.html" class="nav-link">Current Watching</a>
@@ -83,6 +161,7 @@
     </header>
 
     <!-- Hero Section -->
+    <main role="main">
     <section class="relative bg-white min-h-screen flex items-center justify-center overflow-hidden">
         <div class="relative z-10 container mx-auto px-4">
             <div class="flex justify-center">
@@ -101,12 +180,12 @@
     </section>
 
     <!-- Multi-Genre Recommendation Pipeline -->
-    <section class="py-20 bg-white">
+    <section class="py-20 bg-white" aria-labelledby="genre-recommendations-heading">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <!-- Header Section -->
                 <div class="text-center mb-16">
-                    <h2 class="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
+                    <h2 id="genre-recommendations-heading" class="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
                         Multi-Genre <span class="text-anime-red">Recommendations</span>
                     </h2>
                     <p class="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
@@ -197,14 +276,14 @@
     </section>
 
     <!-- Waifu Section -->
-    <section class="py-20" style="background-color: #fdf2f8;">
+    <section class="py-20" style="background-color: #fdf2f8;" aria-labelledby="waifu-section-heading">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <!-- Content Column -->
                     <div class="order-2 lg:order-1">
                         <div class="mb-8">
-                            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+                            <h2 id="waifu-section-heading" class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
                                 Find Your Perfect <span class="text-pink-500">Waifu</span>
                             </h2>
                             <p class="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -284,11 +363,11 @@
     </section>
 
     <!-- Current List Recommendation Section -->
-    <section class="py-16 bg-gray-100">
+    <section class="py-16 bg-gray-100" aria-labelledby="recommendations-heading">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <h2 id="recommendations-heading" class="text-3xl md:text-4xl font-bold mb-4">
                         Get <span class="text-anime-red">Recommendations</span>
                     </h2>
                     <p class="text-lg text-gray-700">
@@ -320,7 +399,7 @@
     </section>
 
     <!-- AllWings AI Team Section -->
-    <section class="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section class="py-20 bg-gradient-to-b from-gray-900 to-black" aria-labelledby="team-heading">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center">
                 <div class="mb-8">
@@ -330,7 +409,7 @@
                         </svg>
                     </div>
                 </div>
-                <h2 class="text-4xl md:text-5xl mb-6 text-white" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">
+                <h2 id="team-heading" class="text-4xl md:text-5xl mb-6 text-white" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">
                     Created by <span class="text-anime-red">AllWings AI Team</span>
                 </h2>
                 <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed" style="font-family: fromage, sans-serif; font-style: normal; font-weight: 200;">
@@ -345,8 +424,9 @@
         </div>
     </section>
 
+        </main>
     <!-- Footer -->
-    <footer class="bg-gradient-to-r from-gray-900 to-black text-white pt-16 pb-8">
+    <footer class="bg-gradient-to-r from-gray-900 to-black text-white pt-16 pb-8" role="contentinfo">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                 <!-- Logo Section -->
