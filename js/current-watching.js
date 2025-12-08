@@ -152,12 +152,22 @@ class CurrentWatchingManager {
         
         tagsContainer.innerHTML = '';
         
+        // Show empty message if no tags
+        if (this.selectedAnimeTags.length === 0) {
+            const emptyMessage = document.createElement('div');
+            emptyMessage.id = 'emptySelectionMessage';
+            emptyMessage.className = 'text-gray-400 text-sm flex items-center';
+            emptyMessage.textContent = 'No anime selected yet. Start typing to add anime to your watchlist.';
+            tagsContainer.appendChild(emptyMessage);
+            return;
+        }
+        
         this.selectedAnimeTags.forEach(anime => {
             const tag = document.createElement('div');
-            tag.className = 'bg-anime-red text-white px-3 py-1 rounded-full text-sm flex items-center gap-2';
+            tag.className = 'bg-anime-red text-white px-3 py-1 rounded-full text-sm flex items-center gap-2 shadow-md';
             tag.innerHTML = `
                 ${anime.title}
-                <button onclick="currentManager.removeAnimeTag(${anime.id})" class="hover:bg-red-700 rounded-full w-4 h-4 flex items-center justify-center">
+                <button onclick="currentManager.removeAnimeTag(${anime.id})" class="hover:bg-red-700 rounded-full w-4 h-4 flex items-center justify-center transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>

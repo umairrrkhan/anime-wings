@@ -99,58 +99,103 @@
 
     <!-- Current Watching Content -->
     <main role="main">
-    <section class="py-20">
+    <section class="py-8 md:py-20 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h1 class="text-4xl font-bold text-center mb-8">Current Watching</h1>
+            <div class="text-center mb-8 md:mb-12">
+                <h1 class="text-3xl md:text-5xl font-bold text-anime-red mb-3">
+                    Current Watching
+                </h1>
+                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto">
+                    Track your anime journey and discover new series tailored to your taste
+                </p>
+            </div>
             
             <!-- Add Anime Section -->
-            <div class="max-w-4xl mx-auto mb-12">
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h2 class="text-2xl font-semibold mb-6 text-center">Add Anime to Your Watchlist</h2>
+            <div class="max-w-4xl mx-auto mb-10 md:mb-16">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="bg-anime-red p-4 md:p-6">
+                        <h2 class="text-xl md:text-2xl font-bold text-white text-center">
+                            Add Anime to Your Watchlist
+                        </h2>
+                    </div>
                     
-                    <!-- Anime Input with Suggestions -->
-                    <div class="relative mb-4">
-                        <div class="flex items-center border border-gray-300 rounded-lg focus-within:border-anime-red">
-                            <input 
-                                type="text" 
-                                id="animeInputBox" 
-                                placeholder="Type anime title or genres (press Enter or comma to add)"
-                                class="flex-1 px-4 py-3 rounded-l-lg focus:outline-none"
-                                autocomplete="off"
-                            >
-                            <button 
-                                onclick="currentManager.getRecommendations()" 
-                                class="bg-anime-red hover:bg-red-600 text-white px-4 py-3 rounded-r-lg transition duration-300"
-                            >
-                                Get Recommendation
-                            </button>
+                    <div class="p-4 md:p-6">
+                        <!-- Anime Input with Suggestions -->
+                        <div class="relative mb-6">
+                            <div class="flex flex-col sm:flex-row gap-2">
+                                <div class="relative flex-1">
+                                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                        <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <input 
+                                        type="text" 
+                                        id="animeInputBox" 
+                                        placeholder="Search for anime titles or genres..."
+                                        class="w-full pl-10 pr-3 py-3 md:py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-anime-red transition-colors text-sm md:text-base"
+                                        autocomplete="off"
+                                    >
+                                </div>
+                                <button 
+                                    onclick="currentManager.getRecommendations()" 
+                                    class="px-6 py-3 md:py-4 bg-anime-red hover:bg-red-600 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm md:text-base"
+                                >
+                                    Get Recommendations
+                                </button>
+                            </div>
+                            
+                            <!-- Suggestions Dropdown -->
+                            <div id="animeSuggestions" class="absolute z-10 w-full bg-white border border-gray-200 rounded-xl shadow-xl mt-2 hidden max-h-60 overflow-y-auto">
+                            </div>
                         </div>
                         
-                        <!-- Suggestions Dropdown -->
-                        <div id="animeSuggestions" class="absolute z-10 w-full bg-white border border-gray-200 rounded-lg shadow-lg mt-1 hidden max-h-60 overflow-y-auto">
+                        <!-- Selected Anime Tags -->
+                        <div class="mb-6">
+                            <div class="flex items-center justify-between mb-2">
+                                <h3 class="text-sm font-semibold text-gray-700 uppercase tracking-wide">Your Selection</h3>
+                                <button 
+                                    onclick="currentManager.clearAllAnime()" 
+                                    class="text-xs text-gray-500 hover:text-anime-red transition-colors"
+                                >
+                                    Clear All
+                                </button>
+                            </div>
+                            <div id="selectedAnimeTags" class="flex flex-wrap gap-2 min-h-[48px] p-4 bg-gray-50 rounded-xl border border-gray-200">
+                                <div class="text-gray-400 text-sm flex items-center" id="emptySelectionMessage">
+                                    No anime selected yet. Start typing to add anime to your watchlist.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <!-- Selected Anime Tags -->
-                    <div id="selectedAnimeTags" class="flex flex-wrap gap-2 mb-4 min-h-[40px] p-2 bg-gray-50 rounded-lg">
-                    </div>
-                    
-                    <!-- Action Buttons -->
-                    <div class="flex justify-start">
-                        <button 
-                            onclick="currentManager.clearAllAnime()" 
-                            class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded transition duration-300"
-                        >
-                            Clear All
-                        </button>
+                        
+                        <!-- Action Buttons -->
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <button 
+                                onclick="currentManager.getRecommendations()" 
+                                class="flex-1 bg-anime-red hover:bg-red-600 text-white font-bold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                            >
+                                Find Similar Anime
+                            </button>
+                            <button 
+                                onclick="currentManager.clearAllAnime()" 
+                                class="sm:w-auto bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-3 px-6 rounded-xl transition-all duration-300"
+                            >
+                                Reset Selection
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <!-- Recommendations Section -->
-            <div id="recommendationsSection" class="max-w-6xl mx-auto hidden">
-                <!-- Recommendations Table -->
-                <div id="recommendedAnime">
+            <div id="recommendationsSection" class="max-w-6xl mx-auto px-2 md:px-0 hidden">
+                <div class="bg-white rounded-2xl shadow-lg p-4 md:p-6">
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-6 text-center">
+                        Recommended Anime For You
+                    </h2>
+                    <!-- Recommendations Table -->
+                    <div id="recommendedAnime">
+                    </div>
                 </div>
             </div>
         </div>

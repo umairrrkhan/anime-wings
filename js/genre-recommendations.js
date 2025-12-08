@@ -188,7 +188,6 @@ class GenreRecommendationsManager {
         
         row.innerHTML = `
             <td class="px-4 py-3 font-medium md:px-6 md:py-4">${anime.title}</td>
-            <td class="px-4 py-3 md:px-6 md:py-4">${anime.creator || 'Unknown'}</td>
             <td class="px-4 py-3 md:px-6 md:py-4">
                 <div class="flex flex-wrap gap-1">
                     ${genreTags}
