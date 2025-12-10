@@ -5,7 +5,7 @@
         "anime": "Attack on Titan",
         "traits": ["protective", "loyal", "strong", "quiet"],
         "description": "A skilled fighter who is fiercely protective of those she cares about.",
-        "image": "https://images.unsplash.com/photo-1494790108755-2616b332c1cd?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/mikasha.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "anime": "Naruto",
         "traits": ["shy", "kind", "determined", "gentle"],
         "description": "A gentle soul who grows stronger through her unwavering determination.",
-        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/hinata.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "anime": "Sword Art Online",
         "traits": ["elegant", "strong", "caring", "leader"],
         "description": "A graceful and skilled fighter with a compassionate heart.",
-        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/asuna.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "anime": "Re:Zero",
         "traits": ["devoted", "strong", "humble", "protective"],
         "description": "Unwaveringly devoted to those she loves with incredible strength.",
-        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/Rem __ Re_ Zero.jpg"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "anime": "Toradora!",
         "traits": ["fierce", "caring", "independent", "vulnerable"],
         "description": "The 'Palmtop Tiger' with a fierce exterior hiding a caring heart.",
-        "image": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/taiga0aisaka.jpg"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "anime": "Bunny Girl Senpai",
         "traits": ["confident", "mature", "intelligent", "caring"],
         "description": "A mature and confident actress with a thoughtful personality.",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/mai.jpg"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "anime": "Darling in the Franxx",
         "traits": ["rebellious", "loyal", "passionate", "mysterious"],
         "description": "A mysterious and passionate partner with a rebellious spirit.",
-        "image": "https://images.unsplash.com/photo-1521319328232-4c9c0b8b7b9c?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/zero_2.jpg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "anime": "Monogatari Series",
         "traits": ["wise", "playful", "mysterious", "ancient"],
         "description": "An ancient vampire in the form of a child with surprising wisdom.",
-        "image": "https://images.unsplash.com/photo-1499996860823-5214a65299fe?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/Shinobu0Oshino.jpg"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "anime": "High School DxD",
         "traits": ["noble", "confident", "caring", "leader"],
         "description": "A noble devil with a confident and caring leadership style.",
-        "image": "https://images.unsplash.com/photo-1521319328232-4c9c0b8b7b9c?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/𝙍𝙞𝙖𝙨_𝙂𝙧𝙚𝙢𝙤𝙧𝙮_𝙄𝙘𝙤𝙣.jpg"
     },
     {
         "id": 10,
@@ -77,6 +77,6 @@
         "anime": "Spy x Family",
         "traits": ["strong", "caring", "clumsy", "protective"],
         "description": "A deadly assassin who is surprisingly caring and clumsy in daily life.",
-        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=500&auto=format&fit=crop"
+        "image": "waifu_image/yor_forger.jpg"
     }
 ]
